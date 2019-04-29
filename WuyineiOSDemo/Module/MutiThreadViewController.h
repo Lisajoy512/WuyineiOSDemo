@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MutiThreadViewController.h
 //  WuyineiOSDemo
 //
 //  Created by wuyine on 2019/4/28.
@@ -8,8 +8,10 @@
 
 #import "WYEBaseViewController.h"
 
-@interface ViewController : WYEBaseViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface MutiThreadViewController : WYEBaseViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

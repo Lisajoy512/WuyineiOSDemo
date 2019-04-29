@@ -7,17 +7,28 @@
 //
 
 #import "ViewController.h"
-
+#import "WYEMediator+MutiThreadModuleActions.h"
 @interface ViewController ()
-
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.title = @"WuyineDemo";
+    self.dataArray = @[@"NSOperation and NSOperationQueue"];
 }
 
-
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    switch (indexPath.row) {
+            case 0: {
+                UIViewController *detail = [[WYEMediator shareInstance] WYEMediator_viewControllerForDetail];
+                [self.navigationController pushViewController:detail animated:YES];
+            }
+            break;
+            
+        default:
+            break;
+    }
+}
 @end
