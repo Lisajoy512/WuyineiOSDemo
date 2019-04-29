@@ -21,6 +21,7 @@
 		284D9D0722759C21005152C1 /* WYEMediator+MutiThreadModuleActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 284D9D0622759C21005152C1 /* WYEMediator+MutiThreadModuleActions.m */; };
 		284D9D0B2275A5E8005152C1 /* Target_MutiThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 284D9D0A2275A5E8005152C1 /* Target_MutiThread.m */; };
 		284D9D0E2275A81D005152C1 /* MutiThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 284D9D0D2275A81D005152C1 /* MutiThreadViewController.m */; };
+		28B2558D2276D99C001932FA /* WYEOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B2558C2276D99C001932FA /* WYEOperation.m */; };
 		28D4D0A622769C5300F7A25D /* WYEBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D4D0A522769C5300F7A25D /* WYEBaseViewController.m */; };
 		B835D289063917BC32A1EB51 /* libPods-WuyineiOSDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5208CE18BEC9F81A7E1FBA /* libPods-WuyineiOSDemo.a */; };
 /* End PBXBuildFile section */
@@ -69,6 +70,8 @@
 		284D9D0A2275A5E8005152C1 /* Target_MutiThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_MutiThread.m; sourceTree = "<group>"; };
 		284D9D0C2275A81D005152C1 /* MutiThreadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutiThreadViewController.h; sourceTree = "<group>"; };
 		284D9D0D2275A81D005152C1 /* MutiThreadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutiThreadViewController.m; sourceTree = "<group>"; };
+		28B2558B2276D99C001932FA /* WYEOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYEOperation.h; sourceTree = "<group>"; };
+		28B2558C2276D99C001932FA /* WYEOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYEOperation.m; sourceTree = "<group>"; };
 		28D4D0A422769C5300F7A25D /* WYEBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYEBaseViewController.h; sourceTree = "<group>"; };
 		28D4D0A522769C5300F7A25D /* WYEBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYEBaseViewController.m; sourceTree = "<group>"; };
 		3B7052CF1D12B8A533FFA36A /* Pods-WuyineiOSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WuyineiOSDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WuyineiOSDemo/Pods-WuyineiOSDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -193,6 +196,8 @@
 				284D9D0A2275A5E8005152C1 /* Target_MutiThread.m */,
 				284D9D0C2275A81D005152C1 /* MutiThreadViewController.h */,
 				284D9D0D2275A81D005152C1 /* MutiThreadViewController.m */,
+				28B2558B2276D99C001932FA /* WYEOperation.h */,
+				28B2558C2276D99C001932FA /* WYEOperation.m */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -439,6 +444,7 @@
 				284D9CCD22754DE3005152C1 /* AppDelegate.m in Sources */,
 				284D9D0B2275A5E8005152C1 /* Target_MutiThread.m in Sources */,
 				284D9D0722759C21005152C1 /* WYEMediator+MutiThreadModuleActions.m in Sources */,
+				28B2558D2276D99C001932FA /* WYEOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
