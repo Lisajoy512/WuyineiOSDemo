@@ -8,13 +8,10 @@
 
 #import "WYEMediator+MutiThreadModuleActions.h"
 
-NSString *const kWYEMediatorMutiThreadModule = @"MutiThread";
-NSString *const kWYEMediatorNativFetchDetailViewController = @"nativeFetchDetailViewController";
-
 @implementation WYEMediator (MutiThreadModuleActions)
 
 - (UIViewController *)WYEMediator_viewControllerForDetail {
-    UIViewController *controller = [self performTarget:kWYEMediatorMutiThreadModule action:kWYEMediatorNativFetchDetailViewController params:@{}];
+    UIViewController *controller = [self performTarget:@"MutiThread" action:@"nativeFetchDetailViewController" params:@{}];
     if ([controller isKindOfClass:[UIViewController class]]) {
         return controller;
     }else {
