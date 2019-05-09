@@ -8,6 +8,10 @@
 
 #import "LogRedirectVC.h"
 #import "fishhook.h"
+#import <mach/task_info.h>
+#import <mach/task.h>
+
+
 @implementation LogRedirectVC
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -16,6 +20,7 @@
                        @"fishhook(二和三只能二选一，一次只能运行一个，否则会出现乱套)",
                        @"dup2 函数和 STDERR 句柄(二和三只能二选一，一次只能运行一个，否则会出现乱套)"
                        ];
+    
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {

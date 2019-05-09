@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "WYEMediator+MutiThreadModuleActions.h"
 #import "WYEMediator+LogRedirect.h"
+#import "WYEMediator+DrawerDemo.h"
 @interface ViewController ()
 @end
 
@@ -18,10 +19,12 @@
     [super viewDidLoad];
     self.title = @"WuyineDemo";
     self.dataArray = @[@"多线程NSOperation and NSOperationQueue",
-                       @"日志重定向 fishhook and stderr"];
+                       @"日志重定向 fishhook and stderr",
+                       @"简单抽屉Demo"];
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:NO];
     switch (indexPath.row) {
             case 0: {
                 UIViewController *detail = [[WYEMediator shareInstance] WYEMediator_viewControllerForDetail];
@@ -33,7 +36,11 @@
                 [self.navigationController pushViewController:detail animated:YES];
             }
             break;
-            
+            case 2: {
+                UIViewController *detail = [[WYEMediator shareInstance] WYEMediator_drawerDemoDetailViewController];
+                [self.navigationController pushViewController:detail animated:YES];
+            }
+                break;
         default:
             break;
     }

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		10A0762441902487037C111E /* libPods-WuyineiOSDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AF6EB1559870A9762C13E3 /* libPods-WuyineiOSDemoTests.a */; };
 		23844B7B45C04947BFC8EF4E /* libPods-WuyineiOSDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC49A9BD254CA534A03EB637 /* libPods-WuyineiOSDemoUITests.a */; };
+		280FA8C72282D43A0081CDC9 /* Target_Drawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 280FA8C62282D43A0081CDC9 /* Target_Drawer.m */; };
+		280FA8CA2282D6050081CDC9 /* WYEMediator+DrawerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 280FA8C92282D6050081CDC9 /* WYEMediator+DrawerDemo.m */; };
 		284D9CCD22754DE3005152C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 284D9CCC22754DE3005152C1 /* AppDelegate.m */; };
 		284D9CD022754DE3005152C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 284D9CCF22754DE3005152C1 /* ViewController.m */; };
 		284D9CD322754DE3005152C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284D9CD122754DE3005152C1 /* Main.storyboard */; };
@@ -26,6 +28,9 @@
 		28B255952276E956001932FA /* LogRedirectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B255942276E956001932FA /* LogRedirectVC.m */; };
 		28B255992276ED1E001932FA /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 28B255972276ED1E001932FA /* fishhook.c */; };
 		28B2559C2276EEDA001932FA /* WYEMediator+LogRedirect.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B2559B2276EEDA001932FA /* WYEMediator+LogRedirect.m */; };
+		28BB7E482282CDB500FD26E3 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB7E472282CDB500FD26E3 /* MenuViewController.m */; };
+		28BB7E4B2282CDD300FD26E3 /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB7E4A2282CDD300FD26E3 /* CenterViewController.m */; };
+		28BB7E4E2282CDEF00FD26E3 /* DrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB7E4D2282CDEF00FD26E3 /* DrawerViewController.m */; };
 		28D4D0A622769C5300F7A25D /* WYEBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D4D0A522769C5300F7A25D /* WYEBaseViewController.m */; };
 		B835D289063917BC32A1EB51 /* libPods-WuyineiOSDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5208CE18BEC9F81A7E1FBA /* libPods-WuyineiOSDemo.a */; };
 /* End PBXBuildFile section */
@@ -50,6 +55,11 @@
 /* Begin PBXFileReference section */
 		10F77173E4059B556BEA8DF2 /* Pods-WuyineiOSDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WuyineiOSDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WuyineiOSDemoUITests/Pods-WuyineiOSDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1C03E786673B14A943DF06EC /* Pods-WuyineiOSDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WuyineiOSDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WuyineiOSDemoTests/Pods-WuyineiOSDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		280FA8C42282D26E0081CDC9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		280FA8C52282D43A0081CDC9 /* Target_Drawer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_Drawer.h; sourceTree = "<group>"; };
+		280FA8C62282D43A0081CDC9 /* Target_Drawer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_Drawer.m; sourceTree = "<group>"; };
+		280FA8C82282D6050081CDC9 /* WYEMediator+DrawerDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WYEMediator+DrawerDemo.h"; sourceTree = "<group>"; };
+		280FA8C92282D6050081CDC9 /* WYEMediator+DrawerDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WYEMediator+DrawerDemo.m"; sourceTree = "<group>"; };
 		284D9CC822754DE3005152C1 /* WuyineiOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WuyineiOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		284D9CCB22754DE3005152C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		284D9CCC22754DE3005152C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -84,6 +94,12 @@
 		28B255982276ED1E001932FA /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
 		28B2559A2276EEDA001932FA /* WYEMediator+LogRedirect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WYEMediator+LogRedirect.h"; sourceTree = "<group>"; };
 		28B2559B2276EEDA001932FA /* WYEMediator+LogRedirect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WYEMediator+LogRedirect.m"; sourceTree = "<group>"; };
+		28BB7E462282CDB500FD26E3 /* MenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		28BB7E472282CDB500FD26E3 /* MenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		28BB7E492282CDD300FD26E3 /* CenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
+		28BB7E4A2282CDD300FD26E3 /* CenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
+		28BB7E4C2282CDEF00FD26E3 /* DrawerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawerViewController.h; sourceTree = "<group>"; };
+		28BB7E4D2282CDEF00FD26E3 /* DrawerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawerViewController.m; sourceTree = "<group>"; };
 		28D4D0A422769C5300F7A25D /* WYEBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYEBaseViewController.h; sourceTree = "<group>"; };
 		28D4D0A522769C5300F7A25D /* WYEBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYEBaseViewController.m; sourceTree = "<group>"; };
 		3B7052CF1D12B8A533FFA36A /* Pods-WuyineiOSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WuyineiOSDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WuyineiOSDemo/Pods-WuyineiOSDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -148,6 +164,7 @@
 		284D9CCA22754DE3005152C1 /* WuyineiOSDemo */ = {
 			isa = PBXGroup;
 			children = (
+				280FA8C42282D26E0081CDC9 /* PrefixHeader.pch */,
 				28D4D0A322769C3C00F7A25D /* BaseViewController */,
 				284D9D082275A5C6005152C1 /* Module */,
 				284D9CFD227553B9005152C1 /* WYEMediator */,
@@ -199,6 +216,8 @@
 				284D9D0622759C21005152C1 /* WYEMediator+MutiThreadModuleActions.m */,
 				28B2559A2276EEDA001932FA /* WYEMediator+LogRedirect.h */,
 				28B2559B2276EEDA001932FA /* WYEMediator+LogRedirect.m */,
+				280FA8C82282D6050081CDC9 /* WYEMediator+DrawerDemo.h */,
+				280FA8C92282D6050081CDC9 /* WYEMediator+DrawerDemo.m */,
 			);
 			path = ModulesCategories;
 			sourceTree = "<group>";
@@ -206,6 +225,7 @@
 		284D9D082275A5C6005152C1 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				28BB7E452282CD9000FD26E3 /* 简单抽屉 */,
 				28B2558F2276E8D9001932FA /* 日志重定向LogRedirect */,
 				28B2558E2276E8C0001932FA /* 多线程MultiThread */,
 			);
@@ -244,6 +264,21 @@
 				28B255982276ED1E001932FA /* fishhook.h */,
 			);
 			path = fishhook;
+			sourceTree = "<group>";
+		};
+		28BB7E452282CD9000FD26E3 /* 简单抽屉 */ = {
+			isa = PBXGroup;
+			children = (
+				28BB7E462282CDB500FD26E3 /* MenuViewController.h */,
+				28BB7E472282CDB500FD26E3 /* MenuViewController.m */,
+				28BB7E492282CDD300FD26E3 /* CenterViewController.h */,
+				28BB7E4A2282CDD300FD26E3 /* CenterViewController.m */,
+				28BB7E4C2282CDEF00FD26E3 /* DrawerViewController.h */,
+				28BB7E4D2282CDEF00FD26E3 /* DrawerViewController.m */,
+				280FA8C52282D43A0081CDC9 /* Target_Drawer.h */,
+				280FA8C62282D43A0081CDC9 /* Target_Drawer.m */,
+			);
+			path = "简单抽屉";
 			sourceTree = "<group>";
 		};
 		28D4D0A322769C3C00F7A25D /* BaseViewController */ = {
@@ -485,14 +520,19 @@
 				284D9CDB22754DE5005152C1 /* main.m in Sources */,
 				284D9D00227553D3005152C1 /* WYEMediator.m in Sources */,
 				284D9D0E2275A81D005152C1 /* MutiThreadViewController.m in Sources */,
+				28BB7E4E2282CDEF00FD26E3 /* DrawerViewController.m in Sources */,
 				284D9CCD22754DE3005152C1 /* AppDelegate.m in Sources */,
 				28B2559C2276EEDA001932FA /* WYEMediator+LogRedirect.m in Sources */,
+				280FA8CA2282D6050081CDC9 /* WYEMediator+DrawerDemo.m in Sources */,
 				284D9D0B2275A5E8005152C1 /* Target_MutiThread.m in Sources */,
 				28B255922276E90D001932FA /* Target_Log.m in Sources */,
 				28B255952276E956001932FA /* LogRedirectVC.m in Sources */,
 				284D9D0722759C21005152C1 /* WYEMediator+MutiThreadModuleActions.m in Sources */,
+				28BB7E482282CDB500FD26E3 /* MenuViewController.m in Sources */,
 				28B255992276ED1E001932FA /* fishhook.c in Sources */,
 				28B2558D2276D99C001932FA /* WYEOperation.m in Sources */,
+				28BB7E4B2282CDD300FD26E3 /* CenterViewController.m in Sources */,
+				280FA8C72282D43A0081CDC9 /* Target_Drawer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,6 +706,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MEX93CHJ2V;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WuyineiOSDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = WuyineiOSDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -691,6 +733,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MEX93CHJ2V;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WuyineiOSDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = WuyineiOSDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

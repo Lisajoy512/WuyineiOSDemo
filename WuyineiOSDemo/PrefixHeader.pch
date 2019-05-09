@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  WuyineiOSDemo
+//
+//  Created by wuyine on 2019/5/8.
+//  Copyright © 2019年 wuyine. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#pragma mark - ------------screenSize-------------
+
+#define SCREEN_WIDTH [[UIScreen mainScreen] bounds].size.width
+#define SCREEN_HEIGHT [[UIScreen mainScreen] bounds].size.height
+#define SCREEN_BOUNDS [UIScreen mainScreen].bounds
+#define KIsiPhoneX (StatusBarHeight > 22 ? YES : NO)
+
+#define     BORDER_WIDTH_1PX            ([[UIScreen mainScreen] scale] > 0.0 ? 1.0 / [[UIScreen mainScreen] scale] : 1.0)
+//iphoneX后的导航栏高度
+
+#define SafeAreaTopHeight (StatusBarHeight + 44)
+#define SafeAreaTopHeightWithOutNavigation [[UIApplication sharedApplication] statusBarFrame].size.height
+#define SafeAreaBottomHeight ((StatusBarHeight > 22) && [[UIDevice currentDevice].model isEqualToString:@"iPhone"]  ? 34 : 0)
+#define kTabBarHeight ((StatusBarHeight > 22) ? 49.0 + 34.0 : 49)
+//获取状态栏的高
+#define StatusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height
+
+#endif /* PrefixHeader_pch */
