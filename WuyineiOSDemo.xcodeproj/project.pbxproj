@@ -28,6 +28,9 @@
 		289C46522283BBC2004F5C1F /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289C46512283BBC2004F5C1F /* LeftViewController.m */; };
 		289C46552283C75D004F5C1F /* Target_MultiTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289C46542283C75D004F5C1F /* Target_MultiTableView.m */; };
 		289C46582283C7E1004F5C1F /* WYEMediator+MultiTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289C46572283C7E1004F5C1F /* WYEMediator+MultiTableView.m */; };
+		289C465B2283D1B3004F5C1F /* WYEHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 289C465A2283D1B3004F5C1F /* WYEHook.m */; };
+		289C46632283D623004F5C1F /* UIViewController+Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 289C46622283D623004F5C1F /* UIViewController+Logger.m */; };
+		289C466622841A71004F5C1F /* UIButton+Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 289C466522841A71004F5C1F /* UIButton+Logger.m */; };
 		28B2558D2276D99C001932FA /* WYEOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B2558C2276D99C001932FA /* WYEOperation.m */; };
 		28B255922276E90D001932FA /* Target_Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B255912276E90D001932FA /* Target_Log.m */; };
 		28B255952276E956001932FA /* LogRedirectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B255942276E956001932FA /* LogRedirectVC.m */; };
@@ -99,6 +102,12 @@
 		289C46542283C75D004F5C1F /* Target_MultiTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_MultiTableView.m; sourceTree = "<group>"; };
 		289C46562283C7E1004F5C1F /* WYEMediator+MultiTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WYEMediator+MultiTableView.h"; sourceTree = "<group>"; };
 		289C46572283C7E1004F5C1F /* WYEMediator+MultiTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WYEMediator+MultiTableView.m"; sourceTree = "<group>"; };
+		289C46592283D1B3004F5C1F /* WYEHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYEHook.h; sourceTree = "<group>"; };
+		289C465A2283D1B3004F5C1F /* WYEHook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYEHook.m; sourceTree = "<group>"; };
+		289C46612283D623004F5C1F /* UIViewController+Logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Logger.h"; sourceTree = "<group>"; };
+		289C46622283D623004F5C1F /* UIViewController+Logger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Logger.m"; sourceTree = "<group>"; };
+		289C466422841A71004F5C1F /* UIButton+Logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Logger.h"; sourceTree = "<group>"; };
+		289C466522841A71004F5C1F /* UIButton+Logger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Logger.m"; sourceTree = "<group>"; };
 		28B2558B2276D99C001932FA /* WYEOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYEOperation.h; sourceTree = "<group>"; };
 		28B2558C2276D99C001932FA /* WYEOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYEOperation.m; sourceTree = "<group>"; };
 		28B255902276E90D001932FA /* Target_Log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_Log.h; sourceTree = "<group>"; };
@@ -179,7 +188,7 @@
 		284D9CCA22754DE3005152C1 /* WuyineiOSDemo */ = {
 			isa = PBXGroup;
 			children = (
-				280FA8C42282D26E0081CDC9 /* PrefixHeader.pch */,
+				289C46602283D5EE004F5C1F /* 无侵入埋点相关 */,
 				28D4D0A322769C3C00F7A25D /* BaseViewController */,
 				284D9D082275A5C6005152C1 /* Module */,
 				284D9CFD227553B9005152C1 /* WYEMediator */,
@@ -187,6 +196,7 @@
 				284D9CCC22754DE3005152C1 /* AppDelegate.m */,
 				284D9CCE22754DE3005152C1 /* ViewController.h */,
 				284D9CCF22754DE3005152C1 /* ViewController.m */,
+				280FA8C42282D26E0081CDC9 /* PrefixHeader.pch */,
 				284D9CD122754DE3005152C1 /* Main.storyboard */,
 				284D9CD422754DE5005152C1 /* Assets.xcassets */,
 				284D9CD622754DE5005152C1 /* LaunchScreen.storyboard */,
@@ -265,6 +275,20 @@
 			path = "一个vc里多tableview";
 			sourceTree = "<group>";
 		};
+		289C46602283D5EE004F5C1F /* 无侵入埋点相关 */ = {
+			isa = PBXGroup;
+			children = (
+				28B255962276ECFB001932FA /* fishhook */,
+				289C46592283D1B3004F5C1F /* WYEHook.h */,
+				289C465A2283D1B3004F5C1F /* WYEHook.m */,
+				289C46612283D623004F5C1F /* UIViewController+Logger.h */,
+				289C46622283D623004F5C1F /* UIViewController+Logger.m */,
+				289C466422841A71004F5C1F /* UIButton+Logger.h */,
+				289C466522841A71004F5C1F /* UIButton+Logger.m */,
+			);
+			path = "无侵入埋点相关";
+			sourceTree = "<group>";
+		};
 		28B2558E2276E8C0001932FA /* 多线程MultiThread */ = {
 			isa = PBXGroup;
 			children = (
@@ -281,7 +305,6 @@
 		28B2558F2276E8D9001932FA /* 日志重定向LogRedirect */ = {
 			isa = PBXGroup;
 			children = (
-				28B255962276ECFB001932FA /* fishhook */,
 				28B255902276E90D001932FA /* Target_Log.h */,
 				28B255912276E90D001932FA /* Target_Log.m */,
 				28B255932276E956001932FA /* LogRedirectVC.h */,
@@ -563,9 +586,12 @@
 				28B255922276E90D001932FA /* Target_Log.m in Sources */,
 				28B255952276E956001932FA /* LogRedirectVC.m in Sources */,
 				289C46582283C7E1004F5C1F /* WYEMediator+MultiTableView.m in Sources */,
+				289C466622841A71004F5C1F /* UIButton+Logger.m in Sources */,
+				289C46632283D623004F5C1F /* UIViewController+Logger.m in Sources */,
 				289C464F2283BBA9004F5C1F /* RightViewController.m in Sources */,
 				284D9D0722759C21005152C1 /* WYEMediator+MutiThreadModuleActions.m in Sources */,
 				28BB7E482282CDB500FD26E3 /* MenuViewController.m in Sources */,
+				289C465B2283D1B3004F5C1F /* WYEHook.m in Sources */,
 				28B255992276ED1E001932FA /* fishhook.c in Sources */,
 				28B2558D2276D99C001932FA /* WYEOperation.m in Sources */,
 				289C46522283BBC2004F5C1F /* LeftViewController.m in Sources */,
