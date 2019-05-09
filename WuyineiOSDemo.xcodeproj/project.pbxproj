@@ -23,6 +23,11 @@
 		284D9D0722759C21005152C1 /* WYEMediator+MutiThreadModuleActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 284D9D0622759C21005152C1 /* WYEMediator+MutiThreadModuleActions.m */; };
 		284D9D0B2275A5E8005152C1 /* Target_MutiThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 284D9D0A2275A5E8005152C1 /* Target_MutiThread.m */; };
 		284D9D0E2275A81D005152C1 /* MutiThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 284D9D0D2275A81D005152C1 /* MutiThreadViewController.m */; };
+		289C46492283BB5A004F5C1F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289C46482283BB5A004F5C1F /* RootViewController.m */; };
+		289C464F2283BBA9004F5C1F /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289C464E2283BBA9004F5C1F /* RightViewController.m */; };
+		289C46522283BBC2004F5C1F /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289C46512283BBC2004F5C1F /* LeftViewController.m */; };
+		289C46552283C75D004F5C1F /* Target_MultiTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289C46542283C75D004F5C1F /* Target_MultiTableView.m */; };
+		289C46582283C7E1004F5C1F /* WYEMediator+MultiTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289C46572283C7E1004F5C1F /* WYEMediator+MultiTableView.m */; };
 		28B2558D2276D99C001932FA /* WYEOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B2558C2276D99C001932FA /* WYEOperation.m */; };
 		28B255922276E90D001932FA /* Target_Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B255912276E90D001932FA /* Target_Log.m */; };
 		28B255952276E956001932FA /* LogRedirectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B255942276E956001932FA /* LogRedirectVC.m */; };
@@ -84,6 +89,16 @@
 		284D9D0A2275A5E8005152C1 /* Target_MutiThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_MutiThread.m; sourceTree = "<group>"; };
 		284D9D0C2275A81D005152C1 /* MutiThreadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutiThreadViewController.h; sourceTree = "<group>"; };
 		284D9D0D2275A81D005152C1 /* MutiThreadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutiThreadViewController.m; sourceTree = "<group>"; };
+		289C46472283BB5A004F5C1F /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		289C46482283BB5A004F5C1F /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		289C464D2283BBA9004F5C1F /* RightViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		289C464E2283BBA9004F5C1F /* RightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+		289C46502283BBC2004F5C1F /* LeftViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		289C46512283BBC2004F5C1F /* LeftViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		289C46532283C75D004F5C1F /* Target_MultiTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_MultiTableView.h; sourceTree = "<group>"; };
+		289C46542283C75D004F5C1F /* Target_MultiTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_MultiTableView.m; sourceTree = "<group>"; };
+		289C46562283C7E1004F5C1F /* WYEMediator+MultiTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WYEMediator+MultiTableView.h"; sourceTree = "<group>"; };
+		289C46572283C7E1004F5C1F /* WYEMediator+MultiTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WYEMediator+MultiTableView.m"; sourceTree = "<group>"; };
 		28B2558B2276D99C001932FA /* WYEOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYEOperation.h; sourceTree = "<group>"; };
 		28B2558C2276D99C001932FA /* WYEOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYEOperation.m; sourceTree = "<group>"; };
 		28B255902276E90D001932FA /* Target_Log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_Log.h; sourceTree = "<group>"; };
@@ -218,6 +233,8 @@
 				28B2559B2276EEDA001932FA /* WYEMediator+LogRedirect.m */,
 				280FA8C82282D6050081CDC9 /* WYEMediator+DrawerDemo.h */,
 				280FA8C92282D6050081CDC9 /* WYEMediator+DrawerDemo.m */,
+				289C46562283C7E1004F5C1F /* WYEMediator+MultiTableView.h */,
+				289C46572283C7E1004F5C1F /* WYEMediator+MultiTableView.m */,
 			);
 			path = ModulesCategories;
 			sourceTree = "<group>";
@@ -225,11 +242,27 @@
 		284D9D082275A5C6005152C1 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				289C46462283BB37004F5C1F /* 一个vc里多tableview */,
 				28BB7E452282CD9000FD26E3 /* 简单抽屉 */,
 				28B2558F2276E8D9001932FA /* 日志重定向LogRedirect */,
 				28B2558E2276E8C0001932FA /* 多线程MultiThread */,
 			);
 			path = Module;
+			sourceTree = "<group>";
+		};
+		289C46462283BB37004F5C1F /* 一个vc里多tableview */ = {
+			isa = PBXGroup;
+			children = (
+				289C46472283BB5A004F5C1F /* RootViewController.h */,
+				289C46482283BB5A004F5C1F /* RootViewController.m */,
+				289C46502283BBC2004F5C1F /* LeftViewController.h */,
+				289C46512283BBC2004F5C1F /* LeftViewController.m */,
+				289C464D2283BBA9004F5C1F /* RightViewController.h */,
+				289C464E2283BBA9004F5C1F /* RightViewController.m */,
+				289C46532283C75D004F5C1F /* Target_MultiTableView.h */,
+				289C46542283C75D004F5C1F /* Target_MultiTableView.m */,
+			);
+			path = "一个vc里多tableview";
 			sourceTree = "<group>";
 		};
 		28B2558E2276E8C0001932FA /* 多线程MultiThread */ = {
@@ -516,6 +549,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				284D9CD022754DE3005152C1 /* ViewController.m in Sources */,
+				289C46492283BB5A004F5C1F /* RootViewController.m in Sources */,
+				289C46552283C75D004F5C1F /* Target_MultiTableView.m in Sources */,
 				28D4D0A622769C5300F7A25D /* WYEBaseViewController.m in Sources */,
 				284D9CDB22754DE5005152C1 /* main.m in Sources */,
 				284D9D00227553D3005152C1 /* WYEMediator.m in Sources */,
@@ -527,10 +562,13 @@
 				284D9D0B2275A5E8005152C1 /* Target_MutiThread.m in Sources */,
 				28B255922276E90D001932FA /* Target_Log.m in Sources */,
 				28B255952276E956001932FA /* LogRedirectVC.m in Sources */,
+				289C46582283C7E1004F5C1F /* WYEMediator+MultiTableView.m in Sources */,
+				289C464F2283BBA9004F5C1F /* RightViewController.m in Sources */,
 				284D9D0722759C21005152C1 /* WYEMediator+MutiThreadModuleActions.m in Sources */,
 				28BB7E482282CDB500FD26E3 /* MenuViewController.m in Sources */,
 				28B255992276ED1E001932FA /* fishhook.c in Sources */,
 				28B2558D2276D99C001932FA /* WYEOperation.m in Sources */,
+				289C46522283BBC2004F5C1F /* LeftViewController.m in Sources */,
 				28BB7E4B2282CDD300FD26E3 /* CenterViewController.m in Sources */,
 				280FA8C72282D43A0081CDC9 /* Target_Drawer.m in Sources */,
 			);

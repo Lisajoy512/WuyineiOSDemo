@@ -10,6 +10,7 @@
 #import "WYEMediator+MutiThreadModuleActions.h"
 #import "WYEMediator+LogRedirect.h"
 #import "WYEMediator+DrawerDemo.h"
+#import "WYEMediator+MultiTableView.h"
 @interface ViewController ()
 @end
 
@@ -20,7 +21,8 @@
     self.title = @"WuyineDemo";
     self.dataArray = @[@"多线程NSOperation and NSOperationQueue",
                        @"日志重定向 fishhook and stderr",
-                       @"简单抽屉Demo"];
+                       @"简单抽屉Demo",
+                       @"一个ViewController中多个tableView（childViewController）"];
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -38,6 +40,11 @@
             break;
             case 2: {
                 UIViewController *detail = [[WYEMediator shareInstance] WYEMediator_drawerDemoDetailViewController];
+                [self.navigationController pushViewController:detail animated:YES];
+            }
+                break;
+            case 3: {
+                UIViewController *detail = [[WYEMediator shareInstance] WYEMediator_multiTableViewDetailController];
                 [self.navigationController pushViewController:detail animated:YES];
             }
                 break;

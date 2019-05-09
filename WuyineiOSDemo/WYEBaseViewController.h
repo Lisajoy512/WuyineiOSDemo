@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface WYEBaseViewController : UIViewController
 @property (nonatomic,strong) NSArray *dataArray;
-
+@property (nonatomic,strong) UIColor *tableViewBackColor;
 @end
 
 NS_ASSUME_NONNULL_END

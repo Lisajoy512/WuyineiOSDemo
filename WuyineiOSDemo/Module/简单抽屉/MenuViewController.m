@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.dataArray = @[@"menu 1",
+                       @"menu 2"];
 }
 
 /*

@@ -31,6 +31,11 @@
     self.view.backgroundColor = [UIColor blueColor];
     [self addChildViewController:self.menuVC];
     [self.view addSubview:self.menuVC.view];
+    [self.menuVC.view mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.trailing.top.bottom.mas_equalTo(0);
+        make.width.mas_equalTo(150);
+    }];
+    
     [self addChildViewController:self.centerVC];
     [self.view addSubview:self.centerVC.view];
     
