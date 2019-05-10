@@ -11,6 +11,7 @@
 #import "WYEMediator+LogRedirect.h"
 #import "WYEMediator+DrawerDemo.h"
 #import "WYEMediator+MultiTableView.h"
+#import "WYEMediator+RuntimeDemo.h"
 @interface ViewController ()
 @end
 
@@ -22,7 +23,11 @@
     self.dataArray = @[@"多线程NSOperation and NSOperationQueue",
                        @"日志重定向 fishhook and stderr",
                        @"简单抽屉Demo",
-                       @"一个ViewController中多个tableView（childViewController）"];
+                       @"一个ViewController中多个tableView（childViewController）",
+                       @"runtime 消息重载、消息接收者转发、消息转发等demo",
+                       @"runtime 应用图",
+                       @"runloop Demo"
+                       ];
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -46,6 +51,15 @@
             case 3: {
                 UIViewController *detail = [[WYEMediator shareInstance] WYEMediator_multiTableViewDetailController];
                 [self.navigationController pushViewController:detail animated:YES];
+            }
+                break;
+            case 4: {
+                UIViewController *detail = [[WYEMediator shareInstance] WYEMediator_runtimeDemoDetailViewController];
+                [self.navigationController pushViewController:detail animated:YES];
+            }
+                break;
+            case 5: {
+                [[WYEMediator shareInstance] WYEMediator_presenrImageViewController:@{@"imageName":@"runtime实用篇"}];
             }
                 break;
         default:
