@@ -1,0 +1,22 @@
+{
+    "id":"2462079046",
+    "name": "梧雨北辰",
+    "age":"18",
+    "weight":140,
+    "teacher":{
+            "country":"中国",
+            "province": "河南"
+            },
+    "students":[{
+               "name":"Chinese",
+               "desc":"语文课"
+                },
+                {
+                 "name":"Math",
+                 "desc":"数学课"
+                },
+                {
+               "name":"English",
+               "desc":"英语课"
+                }]
+}

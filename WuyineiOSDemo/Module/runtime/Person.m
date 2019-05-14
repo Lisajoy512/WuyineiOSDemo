@@ -86,4 +86,9 @@
 - (void)zs_singSong:(NSString *)name{
     NSLog(@"%s",__func__);
 }
+
++ (NSDictionary *)modelContainerPropertyGenericClass {
+    //需要特别处理的属性
+    return @{@"students" : [Student class],@"uid":@"id"};
+}
 @end

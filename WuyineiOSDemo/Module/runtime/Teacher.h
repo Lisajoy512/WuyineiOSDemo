@@ -11,6 +11,11 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Teacher : NSObject
+
+@property (nonatomic, copy) NSString *country;  //国籍
+@property (nonatomic, copy) NSString *province; //省份
+@property (nonatomic, copy) NSString *city;     //城市
+
 //实例方法：教书
 - (void)teachKnowledge:(NSString *)course;
 @end

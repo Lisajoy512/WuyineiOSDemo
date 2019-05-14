@@ -7,10 +7,23 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NSObject+WYEModel.h"
+#import "Student.h"
+#import "Teacher.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Person : NSObject
+@interface Person : NSObject<WYEModel>
+@property (nonatomic,copy) NSString *uid;
+@property (nonatomic,copy) NSString *name;
+@property (nonatomic,assign) NSInteger age;
+
+//嵌套模型
+@property (nonatomic,strong) Teacher *teacher;
+//嵌套模型数组
+@property (nonatomic,strong) NSArray *students;
+
+
 //声明类方法，但未实现
 + (void)haveMeal:(NSString *)food;
 //声明实例方法，但未实现

@@ -11,6 +11,8 @@
 #import "Student.h"
 #import "Teacher.h"
 #import <objc/runtime.h>
+#import "WYETools.h"
+#import "YQMutableArray.h"
 @interface RuntimeDemoViewController ()
 @property (nonatomic,strong) Student *student;
 @property (nonatomic,strong) Teacher *teacher;
@@ -21,16 +23,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.dataArray = @[@"消息动态解析",
-                       @"消息接收者转发",
-                       @"消息转发",
-                       @"分类增加属性",
-                       @"获取类相关信息",
-                       @"方法大量调用直接走IMP，绕开消息发送过程",
-                       @"自动归档和解档",
-                       @"修改私有属性的值",
-                       @"字典与模型的转换",
-                       @"创建线程安全的数组"
+    self.dataArray = @[@"0 消息动态解析",
+                       @"1 消息接收者转发",
+                       @"2 消息转发",
+                       @"3 分类增加属性",
+                       @"4 获取类相关信息",
+                       @"5 方法大量调用直接走IMP，绕开消息发送过程",
+                       @"6 自动归档和解档",
+                       @"7 修改私有属性的值",
+                       @"8 字典与模型的转换",
+                       @"9 创建线程安全的数组"
                        ];
 }
 
@@ -193,6 +195,21 @@
                 }
             }
             NSLog(@"privateIvar: %@",[self valueForKey:@"privateIvar"]);
+        }
+            break;
+        case 8: {
+            NSDictionary *dic = [WYETools readLocalFileWithName:@"test"];
+            //字典转模型
+            Person *person = [Person wye_modelWithDictionary:dic];
+            Student *student = person.students[0];
+            NSLog(@"%@",student.name);
+        }
+            break;
+        case 9: {
+            YQMutableArray *arr = [[YQMutableArray alloc] init];
+            Person *p = [[Person alloc] init];
+            [arr addObject:p];
+            NSLog(@"arr.count = %lu",(unsigned long)arr.count);
         }
             break;
         default:

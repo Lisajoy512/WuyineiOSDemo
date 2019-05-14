@@ -11,6 +11,10 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Student : NSObject
+
+@property (nonatomic, copy) NSString *name;  //
+@property (nonatomic, copy) NSString *desc; //
+
 //类方法：参加考试
 + (void)takeExam:(NSString *)exam;
 //实例方法：学习知识
