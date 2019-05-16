@@ -12,6 +12,8 @@
 #import "WYEMediator+DrawerDemo.h"
 #import "WYEMediator+MultiTableView.h"
 #import "WYEMediator+RuntimeDemo.h"
+#import "WYEMediator+RunLoop.h"
+#import "WYEMediator+KVCandKVO.h"
 @interface ViewController ()
 @end
 
@@ -26,7 +28,10 @@
                        @"3 一个ViewController中多个tableView（childViewController）",
                        @"4 runtime 消息重载、消息接收者转发、消息转发等demo",
                        @"5 runtime 应用图",
-                       @"6 runloop Demo"
+                       @"6 runloop Demo",
+                       @"7 GCD Demo（后续整理）",
+                       @"8 NSTimer循环引用demo",
+                       @"9 KVC and KVO demo"
                        ];
 }
 
@@ -60,6 +65,16 @@
                 break;
             case 5: {
                 [[WYEMediator shareInstance] WYEMediator_presenrImageViewController:@{@"imageName":@"runtime实用篇"}];
+            }
+                break;
+            case 6: {
+                UIViewController *detail = [[WYEMediator shareInstance] WYEMediator_detailRunLoopDemoDetailVC];
+                [self.navigationController pushViewController:detail animated:YES];
+            }
+                break;
+            case 9: {
+                UIViewController *detail = [[WYEMediator shareInstance] WYEMediator_detailKVCandKVOController];
+                [self.navigationController pushViewController:detail animated:YES];
             }
                 break;
         default:

@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
-
+#import "SMLagMonitor.h"
 @interface AppDelegate ()
 
 @end
@@ -17,9 +17,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
     ViewController *vc = [[ViewController alloc] init];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = nav;
+    
+#if TestSever 
+    //这里是做卡顿监测
+    [[SMLagMonitor shareInstance] beginMonitor];
+#else
+#endif
+    
     return YES;
 }
 

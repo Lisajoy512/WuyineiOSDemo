@@ -69,6 +69,7 @@
 - (LeftViewController *)leftVC {
     if (!_leftVC) {
         _leftVC = [[LeftViewController alloc] init];
+//        __weak RootViewController *weakSelf = self;
         __weak typeof(self) weakSelf = self;
         [_leftVC setClickBlock:^(NSInteger selectIndex) {
             weakSelf.rightVC.dataArray = [weakSelf.totalData objectAtIndex:selectIndex];

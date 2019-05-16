@@ -52,7 +52,21 @@
 		28BB7E482282CDB500FD26E3 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB7E472282CDB500FD26E3 /* MenuViewController.m */; };
 		28BB7E4B2282CDD300FD26E3 /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB7E4A2282CDD300FD26E3 /* CenterViewController.m */; };
 		28BB7E4E2282CDEF00FD26E3 /* DrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB7E4D2282CDEF00FD26E3 /* DrawerViewController.m */; };
+		28BCF51F228BB941000EFB02 /* TimerDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BCF51E228BB941000EFB02 /* TimerDemoViewController.m */; };
+		28BCF522228BB959000EFB02 /* KVCandKVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BCF521228BB959000EFB02 /* KVCandKVOViewController.m */; };
+		28BCF525228BBAC0000EFB02 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BCF524228BBAC0000EFB02 /* Test.m */; };
+		28BCF528228BF136000EFB02 /* Target_KVCandKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BCF527228BF136000EFB02 /* Target_KVCandKVO.m */; };
+		28BCF52B228BF19D000EFB02 /* WYEMediator+KVCandKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BCF52A228BF19D000EFB02 /* WYEMediator+KVCandKVO.m */; };
 		28D4D0A622769C5300F7A25D /* WYEBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D4D0A522769C5300F7A25D /* WYEBaseViewController.m */; };
+		28F01167228A611300F0309F /* RunLoopDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F01166228A611300F0309F /* RunLoopDemoViewController.m */; };
+		28F0116A228A616100F0309F /* WYEMediator+RunLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F01169228A616100F0309F /* WYEMediator+RunLoop.m */; };
+		28F0116D228A620200F0309F /* Target_RunLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F0116C228A620200F0309F /* Target_RunLoop.m */; };
+		28F0117B228A6A2600F0309F /* SMCallTraceTimeCostModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F01173228A6A2600F0309F /* SMCallTraceTimeCostModel.m */; };
+		28F0117C228A6A2600F0309F /* SMLagMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F01175228A6A2600F0309F /* SMLagMonitor.m */; };
+		28F0117D228A6A2600F0309F /* SMCallTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F01176228A6A2600F0309F /* SMCallTrace.m */; };
+		28F0117E228A6A2600F0309F /* SMCallStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F01177228A6A2600F0309F /* SMCallStack.m */; };
+		28F0117F228A6A2600F0309F /* SMCallTraceCore.c in Sources */ = {isa = PBXBuildFile; fileRef = 28F01178228A6A2600F0309F /* SMCallTraceCore.c */; };
+		28F01180228A6A2600F0309F /* SMCallLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F01179228A6A2600F0309F /* SMCallLib.m */; };
 		B835D289063917BC32A1EB51 /* libPods-WuyineiOSDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5208CE18BEC9F81A7E1FBA /* libPods-WuyineiOSDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -162,8 +176,37 @@
 		28BB7E4A2282CDD300FD26E3 /* CenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
 		28BB7E4C2282CDEF00FD26E3 /* DrawerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawerViewController.h; sourceTree = "<group>"; };
 		28BB7E4D2282CDEF00FD26E3 /* DrawerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawerViewController.m; sourceTree = "<group>"; };
+		28BCF51D228BB941000EFB02 /* TimerDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerDemoViewController.h; sourceTree = "<group>"; };
+		28BCF51E228BB941000EFB02 /* TimerDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerDemoViewController.m; sourceTree = "<group>"; };
+		28BCF520228BB959000EFB02 /* KVCandKVOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVCandKVOViewController.h; sourceTree = "<group>"; };
+		28BCF521228BB959000EFB02 /* KVCandKVOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVCandKVOViewController.m; sourceTree = "<group>"; };
+		28BCF523228BBAC0000EFB02 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		28BCF524228BBAC0000EFB02 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		28BCF526228BF136000EFB02 /* Target_KVCandKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_KVCandKVO.h; sourceTree = "<group>"; };
+		28BCF527228BF136000EFB02 /* Target_KVCandKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_KVCandKVO.m; sourceTree = "<group>"; };
+		28BCF529228BF19D000EFB02 /* WYEMediator+KVCandKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WYEMediator+KVCandKVO.h"; sourceTree = "<group>"; };
+		28BCF52A228BF19D000EFB02 /* WYEMediator+KVCandKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WYEMediator+KVCandKVO.m"; sourceTree = "<group>"; };
 		28D4D0A422769C5300F7A25D /* WYEBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYEBaseViewController.h; sourceTree = "<group>"; };
 		28D4D0A522769C5300F7A25D /* WYEBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYEBaseViewController.m; sourceTree = "<group>"; };
+		28F01165228A611300F0309F /* RunLoopDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoopDemoViewController.h; sourceTree = "<group>"; };
+		28F01166228A611300F0309F /* RunLoopDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopDemoViewController.m; sourceTree = "<group>"; };
+		28F01168228A616100F0309F /* WYEMediator+RunLoop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WYEMediator+RunLoop.h"; sourceTree = "<group>"; };
+		28F01169228A616100F0309F /* WYEMediator+RunLoop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WYEMediator+RunLoop.m"; sourceTree = "<group>"; };
+		28F0116B228A620200F0309F /* Target_RunLoop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_RunLoop.h; sourceTree = "<group>"; };
+		28F0116C228A620200F0309F /* Target_RunLoop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_RunLoop.m; sourceTree = "<group>"; };
+		28F0116F228A6A2600F0309F /* SMCallTrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCallTrace.h; sourceTree = "<group>"; };
+		28F01170228A6A2600F0309F /* SMLagMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMLagMonitor.h; sourceTree = "<group>"; };
+		28F01171228A6A2600F0309F /* SMCallStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCallStack.h; sourceTree = "<group>"; };
+		28F01172228A6A2600F0309F /* SMCallTraceCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCallTraceCore.h; sourceTree = "<group>"; };
+		28F01173228A6A2600F0309F /* SMCallTraceTimeCostModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCallTraceTimeCostModel.m; sourceTree = "<group>"; };
+		28F01174228A6A2600F0309F /* SMCallLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCallLib.h; sourceTree = "<group>"; };
+		28F01175228A6A2600F0309F /* SMLagMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMLagMonitor.m; sourceTree = "<group>"; };
+		28F01176228A6A2600F0309F /* SMCallTrace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCallTrace.m; sourceTree = "<group>"; };
+		28F01177228A6A2600F0309F /* SMCallStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCallStack.m; sourceTree = "<group>"; };
+		28F01178228A6A2600F0309F /* SMCallTraceCore.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SMCallTraceCore.c; sourceTree = "<group>"; };
+		28F01179228A6A2600F0309F /* SMCallLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCallLib.m; sourceTree = "<group>"; };
+		28F0117A228A6A2600F0309F /* SMCallTraceTimeCostModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCallTraceTimeCostModel.h; sourceTree = "<group>"; };
+		28F01181228A6A7700F0309F /* GlobaDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobaDefine.h; sourceTree = "<group>"; };
 		3B7052CF1D12B8A533FFA36A /* Pods-WuyineiOSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WuyineiOSDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WuyineiOSDemo/Pods-WuyineiOSDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		44AF6EB1559870A9762C13E3 /* libPods-WuyineiOSDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WuyineiOSDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF3AF7B4CD31118CAE82942 /* Pods-WuyineiOSDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WuyineiOSDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WuyineiOSDemoUITests/Pods-WuyineiOSDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -228,8 +271,9 @@
 			children = (
 				287C969F2289580000F2F1E1 /* Tools */,
 				289C46602283D5EE004F5C1F /* 无侵入埋点相关 */,
-				28D4D0A322769C3C00F7A25D /* BaseViewController */,
+				28D4D0A322769C3C00F7A25D /* Base */,
 				284D9CFD227553B9005152C1 /* WYEMediator(中间者模式主要内容) */,
+				284D9D0122759BA8005152C1 /* ModulesCategories(每个独立模块都应该独立建一个category) */,
 				284D9D082275A5C6005152C1 /* Module */,
 				284D9CCB22754DE3005152C1 /* AppDelegate.h */,
 				284D9CCC22754DE3005152C1 /* AppDelegate.m */,
@@ -268,7 +312,6 @@
 			children = (
 				284D9CFE227553D3005152C1 /* WYEMediator.h */,
 				284D9CFF227553D3005152C1 /* WYEMediator.m */,
-				284D9D0122759BA8005152C1 /* ModulesCategories(每个独立模块都应该独立建一个category) */,
 			);
 			name = "WYEMediator(中间者模式主要内容)";
 			sourceTree = "<group>";
@@ -286,6 +329,10 @@
 				289C46572283C7E1004F5C1F /* WYEMediator+MultiTableView.m */,
 				289474EC22855A980020A16A /* WYEMediator+RuntimeDemo.h */,
 				289474ED22855A980020A16A /* WYEMediator+RuntimeDemo.m */,
+				28F01168228A616100F0309F /* WYEMediator+RunLoop.h */,
+				28F01169228A616100F0309F /* WYEMediator+RunLoop.m */,
+				28BCF529228BF19D000EFB02 /* WYEMediator+KVCandKVO.h */,
+				28BCF52A228BF19D000EFB02 /* WYEMediator+KVCandKVO.m */,
 			);
 			path = "ModulesCategories(每个独立模块都应该独立建一个category)";
 			sourceTree = "<group>";
@@ -293,6 +340,9 @@
 		284D9D082275A5C6005152C1 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				28BCF51C228BB909000EFB02 /* KVCandKVO */,
+				28BCF51B228BB900000EFB02 /* NSTimer */,
+				28F01164228A60EF00F0309F /* runloop */,
 				289474DF228525690020A16A /* runtime */,
 				289C46462283BB37004F5C1F /* 一个vc里多tableview */,
 				28BB7E452282CD9000FD26E3 /* 简单抽屉 */,
@@ -305,6 +355,7 @@
 		287C969F2289580000F2F1E1 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				28F0116E228A6A2600F0309F /* Monitor */,
 				287C96A02289581200F2F1E1 /* WYETools.h */,
 				287C96A12289581200F2F1E1 /* WYETools.m */,
 			);
@@ -424,13 +475,66 @@
 			path = "简单抽屉";
 			sourceTree = "<group>";
 		};
-		28D4D0A322769C3C00F7A25D /* BaseViewController */ = {
+		28BCF51B228BB900000EFB02 /* NSTimer */ = {
+			isa = PBXGroup;
+			children = (
+				28BCF51D228BB941000EFB02 /* TimerDemoViewController.h */,
+				28BCF51E228BB941000EFB02 /* TimerDemoViewController.m */,
+			);
+			path = NSTimer;
+			sourceTree = "<group>";
+		};
+		28BCF51C228BB909000EFB02 /* KVCandKVO */ = {
+			isa = PBXGroup;
+			children = (
+				28BCF520228BB959000EFB02 /* KVCandKVOViewController.h */,
+				28BCF521228BB959000EFB02 /* KVCandKVOViewController.m */,
+				28BCF526228BF136000EFB02 /* Target_KVCandKVO.h */,
+				28BCF527228BF136000EFB02 /* Target_KVCandKVO.m */,
+				28BCF523228BBAC0000EFB02 /* Test.h */,
+				28BCF524228BBAC0000EFB02 /* Test.m */,
+			);
+			path = KVCandKVO;
+			sourceTree = "<group>";
+		};
+		28D4D0A322769C3C00F7A25D /* Base */ = {
 			isa = PBXGroup;
 			children = (
 				28D4D0A422769C5300F7A25D /* WYEBaseViewController.h */,
 				28D4D0A522769C5300F7A25D /* WYEBaseViewController.m */,
+				28F01181228A6A7700F0309F /* GlobaDefine.h */,
 			);
-			name = BaseViewController;
+			name = Base;
+			sourceTree = "<group>";
+		};
+		28F01164228A60EF00F0309F /* runloop */ = {
+			isa = PBXGroup;
+			children = (
+				28F01165228A611300F0309F /* RunLoopDemoViewController.h */,
+				28F01166228A611300F0309F /* RunLoopDemoViewController.m */,
+				28F0116B228A620200F0309F /* Target_RunLoop.h */,
+				28F0116C228A620200F0309F /* Target_RunLoop.m */,
+			);
+			path = runloop;
+			sourceTree = "<group>";
+		};
+		28F0116E228A6A2600F0309F /* Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				28F0116F228A6A2600F0309F /* SMCallTrace.h */,
+				28F01170228A6A2600F0309F /* SMLagMonitor.h */,
+				28F01171228A6A2600F0309F /* SMCallStack.h */,
+				28F01172228A6A2600F0309F /* SMCallTraceCore.h */,
+				28F01173228A6A2600F0309F /* SMCallTraceTimeCostModel.m */,
+				28F01174228A6A2600F0309F /* SMCallLib.h */,
+				28F01175228A6A2600F0309F /* SMLagMonitor.m */,
+				28F01176228A6A2600F0309F /* SMCallTrace.m */,
+				28F01177228A6A2600F0309F /* SMCallStack.m */,
+				28F01178228A6A2600F0309F /* SMCallTraceCore.c */,
+				28F01179228A6A2600F0309F /* SMCallLib.m */,
+				28F0117A228A6A2600F0309F /* SMCallTraceTimeCostModel.h */,
+			);
+			path = Monitor;
 			sourceTree = "<group>";
 		};
 		4F1F8A8E2B11BC42764C5DAD /* Frameworks */ = {
@@ -661,10 +765,12 @@
 			files = (
 				289474F122855E760020A16A /* Teacher.m in Sources */,
 				289474E2228525F30020A16A /* RuntimeDemoViewController.m in Sources */,
+				28BCF528228BF136000EFB02 /* Target_KVCandKVO.m in Sources */,
 				284D9CD022754DE3005152C1 /* ViewController.m in Sources */,
 				289474E52285264F0020A16A /* Person.m in Sources */,
 				287C96A922896AD900F2F1E1 /* YQMultiThreadObject.m in Sources */,
 				289C46492283BB5A004F5C1F /* RootViewController.m in Sources */,
+				28F01167228A611300F0309F /* RunLoopDemoViewController.m in Sources */,
 				289C46552283C75D004F5C1F /* Target_MultiTableView.m in Sources */,
 				28D4D0A622769C5300F7A25D /* WYEBaseViewController.m in Sources */,
 				287C96A22289581200F2F1E1 /* WYETools.m in Sources */,
@@ -672,13 +778,19 @@
 				284D9CDB22754DE5005152C1 /* main.m in Sources */,
 				284D9D00227553D3005152C1 /* WYEMediator.m in Sources */,
 				284D9D0E2275A81D005152C1 /* MutiThreadViewController.m in Sources */,
+				28F0117F228A6A2600F0309F /* SMCallTraceCore.c in Sources */,
 				28BB7E4E2282CDEF00FD26E3 /* DrawerViewController.m in Sources */,
 				284D9CCD22754DE3005152C1 /* AppDelegate.m in Sources */,
 				287C96A822896AD900F2F1E1 /* YQMutableArray.m in Sources */,
 				289474EE22855A980020A16A /* WYEMediator+RuntimeDemo.m in Sources */,
+				28BCF522228BB959000EFB02 /* KVCandKVOViewController.m in Sources */,
 				28B2559C2276EEDA001932FA /* WYEMediator+LogRedirect.m in Sources */,
 				287C969C228953C500F2F1E1 /* NSObject+WYEModel.m in Sources */,
+				28F0116A228A616100F0309F /* WYEMediator+RunLoop.m in Sources */,
 				280FA8CA2282D6050081CDC9 /* WYEMediator+DrawerDemo.m in Sources */,
+				28F01180228A6A2600F0309F /* SMCallLib.m in Sources */,
+				28F0116D228A620200F0309F /* Target_RunLoop.m in Sources */,
+				28F0117D228A6A2600F0309F /* SMCallTrace.m in Sources */,
 				284D9D0B2275A5E8005152C1 /* Target_MutiThread.m in Sources */,
 				28B255922276E90D001932FA /* Target_Log.m in Sources */,
 				28B255952276E956001932FA /* LogRedirectVC.m in Sources */,
@@ -687,15 +799,21 @@
 				289474EB228559CB0020A16A /* Target_RuntimeDemo.m in Sources */,
 				289C46632283D623004F5C1F /* UIViewController+Logger.m in Sources */,
 				289C464F2283BBA9004F5C1F /* RightViewController.m in Sources */,
+				28BCF525228BBAC0000EFB02 /* Test.m in Sources */,
 				284D9D0722759C21005152C1 /* WYEMediator+MutiThreadModuleActions.m in Sources */,
+				28F0117E228A6A2600F0309F /* SMCallStack.m in Sources */,
 				28BB7E482282CDB500FD26E3 /* MenuViewController.m in Sources */,
+				28F0117C228A6A2600F0309F /* SMLagMonitor.m in Sources */,
 				289C465B2283D1B3004F5C1F /* WYEHook.m in Sources */,
 				28B255992276ED1E001932FA /* fishhook.c in Sources */,
 				28B2558D2276D99C001932FA /* WYEOperation.m in Sources */,
+				28BCF51F228BB941000EFB02 /* TimerDemoViewController.m in Sources */,
 				289474F4228561A80020A16A /* RunTimePraticalViewController.m in Sources */,
+				28F0117B228A6A2600F0309F /* SMCallTraceTimeCostModel.m in Sources */,
 				289474E8228527390020A16A /* Student.m in Sources */,
 				289C46522283BBC2004F5C1F /* LeftViewController.m in Sources */,
 				28BB7E4B2282CDD300FD26E3 /* CenterViewController.m in Sources */,
+				28BCF52B228BF19D000EFB02 /* WYEMediator+KVCandKVO.m in Sources */,
 				280FA8C72282D43A0081CDC9 /* Target_Drawer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
