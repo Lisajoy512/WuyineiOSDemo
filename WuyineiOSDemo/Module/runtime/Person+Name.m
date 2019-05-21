@@ -8,14 +8,14 @@
 
 #import "Person+Name.h"
 #import <objc/runtime.h>
-@implementation Person (Name)
+@implementation Person (Other)
 
-- (NSString *)name {
-    return objc_getAssociatedObject(self, @selector(name));
+- (NSString *)other {
+    return objc_getAssociatedObject(self, @selector(other));
 }
 
-- (void)setName:(NSString *)name {
-    return objc_setAssociatedObject(self, @selector(name), name, OBJC_ASSOCIATION_COPY);
+- (void)setOther:(NSString *)other {
+    return objc_setAssociatedObject(self, @selector(other), other, OBJC_ASSOCIATION_COPY);
 }
 
 @end

@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Person (Name)
-@property (nonatomic,copy) NSString *name;
+@property (nonatomic,copy) NSString *other;
 @end
 
 NS_ASSUME_NONNULL_END

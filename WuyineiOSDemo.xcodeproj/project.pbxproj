@@ -11,6 +11,63 @@
 		23844B7B45C04947BFC8EF4E /* libPods-WuyineiOSDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC49A9BD254CA534A03EB637 /* libPods-WuyineiOSDemoUITests.a */; };
 		280FA8C72282D43A0081CDC9 /* Target_Drawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 280FA8C62282D43A0081CDC9 /* Target_Drawer.m */; };
 		280FA8CA2282D6050081CDC9 /* WYEMediator+DrawerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 280FA8C92282D6050081CDC9 /* WYEMediator+DrawerDemo.m */; };
+		282DBC482293D1D1008F4671 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 289474F022855E760020A16A /* Teacher.m */; };
+		282DBC492293D1D1008F4671 /* RuntimeDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289474E1228525F30020A16A /* RuntimeDemoViewController.m */; };
+		282DBC4A2293D1D1008F4671 /* Target_KVCandKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BCF527228BF136000EFB02 /* Target_KVCandKVO.m */; };
+		282DBC4C2293D1D1008F4671 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 289474E42285264F0020A16A /* Person.m */; };
+		282DBC4D2293D1D1008F4671 /* YQMultiThreadObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 287C96A722896AD800F2F1E1 /* YQMultiThreadObject.m */; };
+		282DBC4E2293D1D1008F4671 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289C46482283BB5A004F5C1F /* RootViewController.m */; };
+		282DBC4F2293D1D1008F4671 /* RunLoopDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F01166228A611300F0309F /* RunLoopDemoViewController.m */; };
+		282DBC502293D1D1008F4671 /* Target_MultiTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289C46542283C75D004F5C1F /* Target_MultiTableView.m */; };
+		282DBC512293D1D1008F4671 /* WYEBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D4D0A522769C5300F7A25D /* WYEBaseViewController.m */; };
+		282DBC522293D1D1008F4671 /* WYETools.m in Sources */ = {isa = PBXBuildFile; fileRef = 287C96A12289581200F2F1E1 /* WYETools.m */; };
+		282DBC532293D1D1008F4671 /* Person+Name.m in Sources */ = {isa = PBXBuildFile; fileRef = 289474F622856CD10020A16A /* Person+Name.m */; };
+		282DBC542293D1D1008F4671 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 284D9CDA22754DE5005152C1 /* main.m */; };
+		282DBC552293D1D1008F4671 /* WYEMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 284D9CFF227553D3005152C1 /* WYEMediator.m */; };
+		282DBC562293D1D1008F4671 /* MutiThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 284D9D0D2275A81D005152C1 /* MutiThreadViewController.m */; };
+		282DBC572293D1D1008F4671 /* SMCallTraceCore.c in Sources */ = {isa = PBXBuildFile; fileRef = 28F01178228A6A2600F0309F /* SMCallTraceCore.c */; };
+		282DBC582293D1D1008F4671 /* DrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB7E4D2282CDEF00FD26E3 /* DrawerViewController.m */; };
+		282DBC592293D1D1008F4671 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 284D9CCC22754DE3005152C1 /* AppDelegate.m */; };
+		282DBC5A2293D1D1008F4671 /* YQMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 287C96A422896AD800F2F1E1 /* YQMutableArray.m */; };
+		282DBC5B2293D1D1008F4671 /* WYEMediator+RuntimeDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 289474ED22855A980020A16A /* WYEMediator+RuntimeDemo.m */; };
+		282DBC5C2293D1D1008F4671 /* KVCandKVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BCF521228BB959000EFB02 /* KVCandKVOViewController.m */; };
+		282DBC5D2293D1D1008F4671 /* WYEMediator+LogRedirect.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B2559B2276EEDA001932FA /* WYEMediator+LogRedirect.m */; };
+		282DBC5E2293D1D1008F4671 /* NSObject+WYEModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 287C969B228953C500F2F1E1 /* NSObject+WYEModel.m */; };
+		282DBC5F2293D1D1008F4671 /* WYEMediator+RunLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F01169228A616100F0309F /* WYEMediator+RunLoop.m */; };
+		282DBC602293D1D1008F4671 /* WYEMediator+DrawerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 280FA8C92282D6050081CDC9 /* WYEMediator+DrawerDemo.m */; };
+		282DBC612293D1D1008F4671 /* SMCallLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F01179228A6A2600F0309F /* SMCallLib.m */; };
+		282DBC622293D1D1008F4671 /* Target_RunLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F0116C228A620200F0309F /* Target_RunLoop.m */; };
+		282DBC632293D1D1008F4671 /* SMCallTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F01176228A6A2600F0309F /* SMCallTrace.m */; };
+		282DBC642293D1D1008F4671 /* Target_MutiThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 284D9D0A2275A5E8005152C1 /* Target_MutiThread.m */; };
+		282DBC652293D1D1008F4671 /* Target_Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B255912276E90D001932FA /* Target_Log.m */; };
+		282DBC662293D1D1008F4671 /* LogRedirectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B255942276E956001932FA /* LogRedirectVC.m */; };
+		282DBC672293D1D1008F4671 /* WYEMediator+MultiTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289C46572283C7E1004F5C1F /* WYEMediator+MultiTableView.m */; };
+		282DBC682293D1D1008F4671 /* UIButton+Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 289C466522841A71004F5C1F /* UIButton+Logger.m */; };
+		282DBC692293D1D1008F4671 /* Target_RuntimeDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 289474EA228559CB0020A16A /* Target_RuntimeDemo.m */; };
+		282DBC6A2293D1D1008F4671 /* UIViewController+Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 289C46622283D623004F5C1F /* UIViewController+Logger.m */; };
+		282DBC6B2293D1D1008F4671 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289C464E2283BBA9004F5C1F /* RightViewController.m */; };
+		282DBC6C2293D1D1008F4671 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BCF524228BBAC0000EFB02 /* Test.m */; };
+		282DBC6D2293D1D1008F4671 /* WYEMediator+MutiThreadModuleActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 284D9D0622759C21005152C1 /* WYEMediator+MutiThreadModuleActions.m */; };
+		282DBC6E2293D1D1008F4671 /* SMCallStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F01177228A6A2600F0309F /* SMCallStack.m */; };
+		282DBC6F2293D1D1008F4671 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB7E472282CDB500FD26E3 /* MenuViewController.m */; };
+		282DBC702293D1D1008F4671 /* SMLagMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F01175228A6A2600F0309F /* SMLagMonitor.m */; };
+		282DBC712293D1D1008F4671 /* WYEHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 289C465A2283D1B3004F5C1F /* WYEHook.m */; };
+		282DBC722293D1D1008F4671 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 28B255972276ED1E001932FA /* fishhook.c */; };
+		282DBC732293D1D1008F4671 /* WYEOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B2558C2276D99C001932FA /* WYEOperation.m */; };
+		282DBC742293D1D1008F4671 /* TimerDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BCF51E228BB941000EFB02 /* TimerDemoViewController.m */; };
+		282DBC752293D1D1008F4671 /* RunTimePraticalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289474F3228561A80020A16A /* RunTimePraticalViewController.m */; };
+		282DBC762293D1D1008F4671 /* SMCallTraceTimeCostModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F01173228A6A2600F0309F /* SMCallTraceTimeCostModel.m */; };
+		282DBC772293D1D1008F4671 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 289474E7228527390020A16A /* Student.m */; };
+		282DBC782293D1D1008F4671 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289C46512283BBC2004F5C1F /* LeftViewController.m */; };
+		282DBC792293D1D1008F4671 /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB7E4A2282CDD300FD26E3 /* CenterViewController.m */; };
+		282DBC7A2293D1D1008F4671 /* WYEMediator+KVCandKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BCF52A228BF19D000EFB02 /* WYEMediator+KVCandKVO.m */; };
+		282DBC7B2293D1D1008F4671 /* Target_Drawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 280FA8C62282D43A0081CDC9 /* Target_Drawer.m */; };
+		282DBC7D2293D1D1008F4671 /* libPods-WuyineiOSDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5208CE18BEC9F81A7E1FBA /* libPods-WuyineiOSDemo.a */; };
+		282DBC7F2293D1D1008F4671 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284D9CD622754DE5005152C1 /* LaunchScreen.storyboard */; };
+		282DBC802293D1D1008F4671 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 287C969D2289579000F2F1E1 /* test.json */; };
+		282DBC812293D1D1008F4671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284D9CD422754DE5005152C1 /* Assets.xcassets */; };
+		282DBC822293D1D1008F4671 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284D9CD122754DE3005152C1 /* Main.storyboard */; };
+		282DBC8B2293D758008F4671 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282DBC892293D758008F4671 /* ViewController.m */; };
 		284D9CCD22754DE3005152C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 284D9CCC22754DE3005152C1 /* AppDelegate.m */; };
 		284D9CD022754DE3005152C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 284D9CCF22754DE3005152C1 /* ViewController.m */; };
 		284D9CD322754DE3005152C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284D9CD122754DE3005152C1 /* Main.storyboard */; };
@@ -95,6 +152,10 @@
 		280FA8C62282D43A0081CDC9 /* Target_Drawer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_Drawer.m; sourceTree = "<group>"; };
 		280FA8C82282D6050081CDC9 /* WYEMediator+DrawerDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WYEMediator+DrawerDemo.h"; sourceTree = "<group>"; };
 		280FA8C92282D6050081CDC9 /* WYEMediator+DrawerDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WYEMediator+DrawerDemo.m"; sourceTree = "<group>"; };
+		282DBC862293D1D1008F4671 /* iOSDemo copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOSDemo copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		282DBC872293D1D1008F4671 /* WuyineiOSDemo copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "WuyineiOSDemo copy-Info.plist"; path = "/Users/wuyine/Desktop/MyProject/WuyineiOSDemo/WuyineiOSDemo copy-Info.plist"; sourceTree = "<absolute>"; };
+		282DBC892293D758008F4671 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		282DBC8A2293D758008F4671 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		284D9CC822754DE3005152C1 /* WuyineiOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WuyineiOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		284D9CCB22754DE3005152C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		284D9CCC22754DE3005152C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -217,6 +278,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		282DBC7C2293D1D1008F4671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282DBC7D2293D1D1008F4671 /* libPods-WuyineiOSDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		284D9CC522754DE3005152C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -244,6 +313,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		282DBC882293D72A008F4671 /* CopyTarget */ = {
+			isa = PBXGroup;
+			children = (
+				282DBC8A2293D758008F4671 /* ViewController.h */,
+				282DBC892293D758008F4671 /* ViewController.m */,
+				282DBC872293D1D1008F4671 /* WuyineiOSDemo copy-Info.plist */,
+			);
+			path = CopyTarget;
+			sourceTree = "<group>";
+		};
 		284D9CBF22754DE3005152C1 = {
 			isa = PBXGroup;
 			children = (
@@ -262,6 +341,7 @@
 				284D9CC822754DE3005152C1 /* WuyineiOSDemo.app */,
 				284D9CE022754DE5005152C1 /* WuyineiOSDemoTests.xctest */,
 				284D9CEB22754DE5005152C1 /* WuyineiOSDemoUITests.xctest */,
+				282DBC862293D1D1008F4671 /* iOSDemo copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -269,6 +349,7 @@
 		284D9CCA22754DE3005152C1 /* WuyineiOSDemo */ = {
 			isa = PBXGroup;
 			children = (
+				282DBC882293D72A008F4671 /* CopyTarget */,
 				287C969F2289580000F2F1E1 /* Tools */,
 				289C46602283D5EE004F5C1F /* 无侵入埋点相关 */,
 				28D4D0A322769C3C00F7A25D /* Base */,
@@ -563,6 +644,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		282DBC452293D1D1008F4671 /* iOSDemo copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 282DBC832293D1D1008F4671 /* Build configuration list for PBXNativeTarget "iOSDemo copy" */;
+			buildPhases = (
+				282DBC462293D1D1008F4671 /* [CP] Check Pods Manifest.lock */,
+				282DBC472293D1D1008F4671 /* Sources */,
+				282DBC7C2293D1D1008F4671 /* Frameworks */,
+				282DBC7E2293D1D1008F4671 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOSDemo copy";
+			productName = WuyineiOSDemo;
+			productReference = 282DBC862293D1D1008F4671 /* iOSDemo copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 		284D9CC722754DE3005152C1 /* WuyineiOSDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 284D9CF422754DE5005152C1 /* Build configuration list for PBXNativeTarget "WuyineiOSDemo" */;
@@ -657,11 +756,23 @@
 				284D9CC722754DE3005152C1 /* WuyineiOSDemo */,
 				284D9CDF22754DE5005152C1 /* WuyineiOSDemoTests */,
 				284D9CEA22754DE5005152C1 /* WuyineiOSDemoUITests */,
+				282DBC452293D1D1008F4671 /* iOSDemo copy */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		282DBC7E2293D1D1008F4671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282DBC7F2293D1D1008F4671 /* LaunchScreen.storyboard in Resources */,
+				282DBC802293D1D1008F4671 /* test.json in Resources */,
+				282DBC812293D1D1008F4671 /* Assets.xcassets in Resources */,
+				282DBC822293D1D1008F4671 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		284D9CC622754DE3005152C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -691,6 +802,28 @@
 
 /* Begin PBXShellScriptBuildPhase section */
 		06098A6C3576141A7994E87F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WuyineiOSDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		282DBC462293D1D1008F4671 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -759,6 +892,65 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		282DBC472293D1D1008F4671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282DBC482293D1D1008F4671 /* Teacher.m in Sources */,
+				282DBC492293D1D1008F4671 /* RuntimeDemoViewController.m in Sources */,
+				282DBC4A2293D1D1008F4671 /* Target_KVCandKVO.m in Sources */,
+				282DBC8B2293D758008F4671 /* ViewController.m in Sources */,
+				282DBC4C2293D1D1008F4671 /* Person.m in Sources */,
+				282DBC4D2293D1D1008F4671 /* YQMultiThreadObject.m in Sources */,
+				282DBC4E2293D1D1008F4671 /* RootViewController.m in Sources */,
+				282DBC4F2293D1D1008F4671 /* RunLoopDemoViewController.m in Sources */,
+				282DBC502293D1D1008F4671 /* Target_MultiTableView.m in Sources */,
+				282DBC512293D1D1008F4671 /* WYEBaseViewController.m in Sources */,
+				282DBC522293D1D1008F4671 /* WYETools.m in Sources */,
+				282DBC532293D1D1008F4671 /* Person+Name.m in Sources */,
+				282DBC542293D1D1008F4671 /* main.m in Sources */,
+				282DBC552293D1D1008F4671 /* WYEMediator.m in Sources */,
+				282DBC562293D1D1008F4671 /* MutiThreadViewController.m in Sources */,
+				282DBC572293D1D1008F4671 /* SMCallTraceCore.c in Sources */,
+				282DBC582293D1D1008F4671 /* DrawerViewController.m in Sources */,
+				282DBC592293D1D1008F4671 /* AppDelegate.m in Sources */,
+				282DBC5A2293D1D1008F4671 /* YQMutableArray.m in Sources */,
+				282DBC5B2293D1D1008F4671 /* WYEMediator+RuntimeDemo.m in Sources */,
+				282DBC5C2293D1D1008F4671 /* KVCandKVOViewController.m in Sources */,
+				282DBC5D2293D1D1008F4671 /* WYEMediator+LogRedirect.m in Sources */,
+				282DBC5E2293D1D1008F4671 /* NSObject+WYEModel.m in Sources */,
+				282DBC5F2293D1D1008F4671 /* WYEMediator+RunLoop.m in Sources */,
+				282DBC602293D1D1008F4671 /* WYEMediator+DrawerDemo.m in Sources */,
+				282DBC612293D1D1008F4671 /* SMCallLib.m in Sources */,
+				282DBC622293D1D1008F4671 /* Target_RunLoop.m in Sources */,
+				282DBC632293D1D1008F4671 /* SMCallTrace.m in Sources */,
+				282DBC642293D1D1008F4671 /* Target_MutiThread.m in Sources */,
+				282DBC652293D1D1008F4671 /* Target_Log.m in Sources */,
+				282DBC662293D1D1008F4671 /* LogRedirectVC.m in Sources */,
+				282DBC672293D1D1008F4671 /* WYEMediator+MultiTableView.m in Sources */,
+				282DBC682293D1D1008F4671 /* UIButton+Logger.m in Sources */,
+				282DBC692293D1D1008F4671 /* Target_RuntimeDemo.m in Sources */,
+				282DBC6A2293D1D1008F4671 /* UIViewController+Logger.m in Sources */,
+				282DBC6B2293D1D1008F4671 /* RightViewController.m in Sources */,
+				282DBC6C2293D1D1008F4671 /* Test.m in Sources */,
+				282DBC6D2293D1D1008F4671 /* WYEMediator+MutiThreadModuleActions.m in Sources */,
+				282DBC6E2293D1D1008F4671 /* SMCallStack.m in Sources */,
+				282DBC6F2293D1D1008F4671 /* MenuViewController.m in Sources */,
+				282DBC702293D1D1008F4671 /* SMLagMonitor.m in Sources */,
+				282DBC712293D1D1008F4671 /* WYEHook.m in Sources */,
+				282DBC722293D1D1008F4671 /* fishhook.c in Sources */,
+				282DBC732293D1D1008F4671 /* WYEOperation.m in Sources */,
+				282DBC742293D1D1008F4671 /* TimerDemoViewController.m in Sources */,
+				282DBC752293D1D1008F4671 /* RunTimePraticalViewController.m in Sources */,
+				282DBC762293D1D1008F4671 /* SMCallTraceTimeCostModel.m in Sources */,
+				282DBC772293D1D1008F4671 /* Student.m in Sources */,
+				282DBC782293D1D1008F4671 /* LeftViewController.m in Sources */,
+				282DBC792293D1D1008F4671 /* CenterViewController.m in Sources */,
+				282DBC7A2293D1D1008F4671 /* WYEMediator+KVCandKVO.m in Sources */,
+				282DBC7B2293D1D1008F4671 /* Target_Drawer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		284D9CC422754DE3005152C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -869,6 +1061,70 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		282DBC842293D1D1008F4671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B7052CF1D12B8A533FFA36A /* Pods-WuyineiOSDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconCopy;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MEX93CHJ2V;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WuyineiOSDemo/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"IsCopy=1",
+				);
+				INFOPLIST_FILE = "WuyineiOSDemo copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Masonry\"",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiberhome.test.WuyineiOSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		282DBC852293D1D1008F4671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F07FC59ED10A5AE50766D960 /* Pods-WuyineiOSDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconCopy;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MEX93CHJ2V;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WuyineiOSDemo/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"IsCopy=1",
+				);
+				INFOPLIST_FILE = "WuyineiOSDemo copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Masonry\"",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiberhome.test.WuyineiOSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		284D9CF222754DE5005152C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -990,6 +1246,11 @@
 				DEVELOPMENT_TEAM = MEX93CHJ2V;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = WuyineiOSDemo/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"IsCopy=0",
+				);
 				INFOPLIST_FILE = WuyineiOSDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1017,6 +1278,11 @@
 				DEVELOPMENT_TEAM = MEX93CHJ2V;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = WuyineiOSDemo/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"IsCopy=0",
+				);
 				INFOPLIST_FILE = WuyineiOSDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1116,6 +1382,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		282DBC832293D1D1008F4671 /* Build configuration list for PBXNativeTarget "iOSDemo copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282DBC842293D1D1008F4671 /* Debug */,
+				282DBC852293D1D1008F4671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		284D9CC322754DE3005152C1 /* Build configuration list for PBXProject "WuyineiOSDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

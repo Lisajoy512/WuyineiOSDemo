@@ -153,8 +153,8 @@
             break;
         case 3: {
             Person *p = [[Person alloc] init];
-            p.name = @"新名字";
-            NSLog(@"p.name = %@",p.name);
+            p.other = @"新名字";
+            NSLog(@"p.other = %@",p.other);
         }
             break;
         case 4: {

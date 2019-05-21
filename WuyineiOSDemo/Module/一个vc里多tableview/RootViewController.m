@@ -72,7 +72,8 @@
 //        __weak RootViewController *weakSelf = self;
         __weak typeof(self) weakSelf = self;
         [_leftVC setClickBlock:^(NSInteger selectIndex) {
-            weakSelf.rightVC.dataArray = [weakSelf.totalData objectAtIndex:selectIndex];
+            __strong typeof(self) strongSelf = weakSelf;
+            strongSelf.rightVC.dataArray = [strongSelf.totalData objectAtIndex:selectIndex];
         }];
     }
     return _leftVC;

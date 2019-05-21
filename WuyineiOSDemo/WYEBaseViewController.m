@@ -56,4 +56,13 @@
     return self.dataArray.count;
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    if(IsCopy== 1) {
+        return 60;
+    }
+    else {
+        return 44;
+    }
+}
+
 @end
