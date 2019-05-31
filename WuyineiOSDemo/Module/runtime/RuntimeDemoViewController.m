@@ -153,7 +153,8 @@
             break;
         case 3: {
             Person *p = [[Person alloc] init];
-            p.other = @"新名字";
+            [p setValue:@"KVC设名字" forKey:@"other"];
+//            p.other = @"新名字";
             NSLog(@"p.other = %@",p.other);
         }
             break;

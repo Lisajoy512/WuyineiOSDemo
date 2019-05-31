@@ -11,6 +11,7 @@
 @interface RunLoopDemoViewController ()
 @property (nonatomic,assign) NSInteger count;
 @property (nonatomic,strong) UILabel *countDown;
+@property (nonatomic,strong) UIScrollView *scroll;
 @property (nonatomic,strong) UIImageView *delayImageView;
 @end
 
@@ -33,12 +34,12 @@
     [btn2 setTitle:@"timer测试" forState:UIControlStateNormal];
     [btn2 addTarget:self action:@selector(timerRunLoop:) forControlEvents:UIControlEventTouchUpInside];
     
-    UIScrollView *scroll = [[UIScrollView alloc] initWithFrame:CGRectMake(180, 200, 200, 300)];
-    [scroll setContentSize:CGSizeMake(300, 450)];
-    [self.view addSubview:scroll];
+    self.scroll = [[UIScrollView alloc] initWithFrame:CGRectMake(180, 200, 200, 300)];
+    [self.scroll setContentSize:CGSizeMake(300, 450)];
+    [self.view addSubview:self.scroll];
     UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"1"]];
     [imageView setFrame:CGRectMake(0, 0, 1200, 1800)];
-    [scroll addSubview:imageView];
+    [self.scroll addSubview:imageView];
     
     self.count = 100;
     self.countDown = [[UILabel alloc] init];

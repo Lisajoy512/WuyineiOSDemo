@@ -22,6 +22,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"KVC and KVO";
     self.dataArray = @[@"KVC赋值",
                        @"KVC处理集合 @avg、 @count、@max、@min、@sum",
                        @"KVC对象运算符 distinctUnionOfObjects、unionOfObjects",
