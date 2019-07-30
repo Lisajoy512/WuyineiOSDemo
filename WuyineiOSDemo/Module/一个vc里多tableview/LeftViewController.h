@@ -6,13 +6,13 @@
 //  Copyright © 2019年 wuyine. All rights reserved.
 //
 
-#import "WYEBaseViewController.h"
+#import "WYEBaseTableViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 typedef void(^cellClickBlock)(NSInteger selectIndex);
 
-@interface LeftViewController : WYEBaseViewController
+@interface LeftViewController : WYEBaseTableViewController
 @property (nonatomic,copy) cellClickBlock clickBlock;
 @end
 

@@ -6,11 +6,11 @@
 //  Copyright © 2019年 wuyine. All rights reserved.
 //
 
-#import "WYEBaseViewController.h"
+#import "WYEBaseTableViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface RightViewController : WYEBaseViewController
+@interface RightViewController : WYEBaseTableViewController
 
 @end
 

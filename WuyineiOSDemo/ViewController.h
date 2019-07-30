@@ -6,9 +6,9 @@
 //  Copyright © 2019年 wuyine. All rights reserved.
 //
 
-#import "WYEBaseViewController.h"
+#import "WYEBaseTableViewController.h"
 
-@interface ViewController : WYEBaseViewController
+@interface ViewController : WYEBaseTableViewController
 
 
 @end

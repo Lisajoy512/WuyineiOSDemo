@@ -10,6 +10,10 @@
 		10A0762441902487037C111E /* libPods-WuyineiOSDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AF6EB1559870A9762C13E3 /* libPods-WuyineiOSDemoTests.a */; };
 		23844B7B45C04947BFC8EF4E /* libPods-WuyineiOSDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC49A9BD254CA534A03EB637 /* libPods-WuyineiOSDemoUITests.a */; };
 		27C86E01BD01A4E60FC01C38 /* libPods-WuyineiOSDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5208CE18BEC9F81A7E1FBA /* libPods-WuyineiOSDemo.a */; };
+		2800AE9C22F022590032586D /* NSURLSessionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2800AE9B22F022590032586D /* NSURLSessionDetailViewController.m */; };
+		2800AE9F22F0230E0032586D /* Target_NSURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 2800AE9E22F0230E0032586D /* Target_NSURLSession.m */; };
+		2800AEA222F023A70032586D /* WYEMediator+NSURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 2800AEA122F023A70032586D /* WYEMediator+NSURLSession.m */; };
+		2800AEA522F0255C0032586D /* WYEBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2800AEA422F0255C0032586D /* WYEBaseViewController.m */; };
 		280FA8C72282D43A0081CDC9 /* Target_Drawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 280FA8C62282D43A0081CDC9 /* Target_Drawer.m */; };
 		280FA8CA2282D6050081CDC9 /* WYEMediator+DrawerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 280FA8C92282D6050081CDC9 /* WYEMediator+DrawerDemo.m */; };
 		282DBC482293D1D1008F4671 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 289474F022855E760020A16A /* Teacher.m */; };
@@ -20,7 +24,7 @@
 		282DBC4E2293D1D1008F4671 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289C46482283BB5A004F5C1F /* RootViewController.m */; };
 		282DBC4F2293D1D1008F4671 /* RunLoopDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F01166228A611300F0309F /* RunLoopDemoViewController.m */; };
 		282DBC502293D1D1008F4671 /* Target_MultiTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289C46542283C75D004F5C1F /* Target_MultiTableView.m */; };
-		282DBC512293D1D1008F4671 /* WYEBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D4D0A522769C5300F7A25D /* WYEBaseViewController.m */; };
+		282DBC512293D1D1008F4671 /* WYEBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D4D0A522769C5300F7A25D /* WYEBaseTableViewController.m */; };
 		282DBC522293D1D1008F4671 /* WYETools.m in Sources */ = {isa = PBXBuildFile; fileRef = 287C96A12289581200F2F1E1 /* WYETools.m */; };
 		282DBC532293D1D1008F4671 /* Person+Name.m in Sources */ = {isa = PBXBuildFile; fileRef = 289474F622856CD10020A16A /* Person+Name.m */; };
 		282DBC542293D1D1008F4671 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 284D9CDA22754DE5005152C1 /* main.m */; };
@@ -47,7 +51,6 @@
 		282DBC692293D1D1008F4671 /* Target_RuntimeDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 289474EA228559CB0020A16A /* Target_RuntimeDemo.m */; };
 		282DBC6A2293D1D1008F4671 /* UIViewController+Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 289C46622283D623004F5C1F /* UIViewController+Logger.m */; };
 		282DBC6B2293D1D1008F4671 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289C464E2283BBA9004F5C1F /* RightViewController.m */; };
-		282DBC6C2293D1D1008F4671 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BCF524228BBAC0000EFB02 /* Test.m */; };
 		282DBC6D2293D1D1008F4671 /* WYEMediator+MutiThreadModuleActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 284D9D0622759C21005152C1 /* WYEMediator+MutiThreadModuleActions.m */; };
 		282DBC6E2293D1D1008F4671 /* SMCallStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F01177228A6A2600F0309F /* SMCallStack.m */; };
 		282DBC6F2293D1D1008F4671 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB7E472282CDB500FD26E3 /* MenuViewController.m */; };
@@ -106,15 +109,15 @@
 		28B255952276E956001932FA /* LogRedirectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B255942276E956001932FA /* LogRedirectVC.m */; };
 		28B255992276ED1E001932FA /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 28B255972276ED1E001932FA /* fishhook.c */; };
 		28B2559C2276EEDA001932FA /* WYEMediator+LogRedirect.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B2559B2276EEDA001932FA /* WYEMediator+LogRedirect.m */; };
+		28B2F81622A8B80200B05448 /* CollectionViewDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B2F81522A8B80200B05448 /* CollectionViewDetailViewController.m */; };
 		28BB7E482282CDB500FD26E3 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB7E472282CDB500FD26E3 /* MenuViewController.m */; };
 		28BB7E4B2282CDD300FD26E3 /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB7E4A2282CDD300FD26E3 /* CenterViewController.m */; };
 		28BB7E4E2282CDEF00FD26E3 /* DrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BB7E4D2282CDEF00FD26E3 /* DrawerViewController.m */; };
 		28BCF51F228BB941000EFB02 /* TimerDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BCF51E228BB941000EFB02 /* TimerDemoViewController.m */; };
 		28BCF522228BB959000EFB02 /* KVCandKVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BCF521228BB959000EFB02 /* KVCandKVOViewController.m */; };
-		28BCF525228BBAC0000EFB02 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BCF524228BBAC0000EFB02 /* Test.m */; };
 		28BCF528228BF136000EFB02 /* Target_KVCandKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BCF527228BF136000EFB02 /* Target_KVCandKVO.m */; };
 		28BCF52B228BF19D000EFB02 /* WYEMediator+KVCandKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BCF52A228BF19D000EFB02 /* WYEMediator+KVCandKVO.m */; };
-		28D4D0A622769C5300F7A25D /* WYEBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D4D0A522769C5300F7A25D /* WYEBaseViewController.m */; };
+		28D4D0A622769C5300F7A25D /* WYEBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D4D0A522769C5300F7A25D /* WYEBaseTableViewController.m */; };
 		28F01167228A611300F0309F /* RunLoopDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F01166228A611300F0309F /* RunLoopDemoViewController.m */; };
 		28F0116A228A616100F0309F /* WYEMediator+RunLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F01169228A616100F0309F /* WYEMediator+RunLoop.m */; };
 		28F0116D228A620200F0309F /* Target_RunLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F0116C228A620200F0309F /* Target_RunLoop.m */; };
@@ -147,6 +150,14 @@
 /* Begin PBXFileReference section */
 		10F77173E4059B556BEA8DF2 /* Pods-WuyineiOSDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WuyineiOSDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WuyineiOSDemoUITests/Pods-WuyineiOSDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1C03E786673B14A943DF06EC /* Pods-WuyineiOSDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WuyineiOSDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WuyineiOSDemoTests/Pods-WuyineiOSDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2800AE9A22F022590032586D /* NSURLSessionDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSURLSessionDetailViewController.h; sourceTree = "<group>"; };
+		2800AE9B22F022590032586D /* NSURLSessionDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLSessionDetailViewController.m; sourceTree = "<group>"; };
+		2800AE9D22F0230E0032586D /* Target_NSURLSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_NSURLSession.h; sourceTree = "<group>"; };
+		2800AE9E22F0230E0032586D /* Target_NSURLSession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_NSURLSession.m; sourceTree = "<group>"; };
+		2800AEA022F023A60032586D /* WYEMediator+NSURLSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WYEMediator+NSURLSession.h"; sourceTree = "<group>"; };
+		2800AEA122F023A70032586D /* WYEMediator+NSURLSession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WYEMediator+NSURLSession.m"; sourceTree = "<group>"; };
+		2800AEA322F0255C0032586D /* WYEBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYEBaseViewController.h; sourceTree = "<group>"; };
+		2800AEA422F0255C0032586D /* WYEBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYEBaseViewController.m; sourceTree = "<group>"; };
 		280FA8C42282D26E0081CDC9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		280FA8C52282D43A0081CDC9 /* Target_Drawer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_Drawer.h; sourceTree = "<group>"; };
 		280FA8C62282D43A0081CDC9 /* Target_Drawer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_Drawer.m; sourceTree = "<group>"; };
@@ -231,6 +242,8 @@
 		28B255982276ED1E001932FA /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
 		28B2559A2276EEDA001932FA /* WYEMediator+LogRedirect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WYEMediator+LogRedirect.h"; sourceTree = "<group>"; };
 		28B2559B2276EEDA001932FA /* WYEMediator+LogRedirect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WYEMediator+LogRedirect.m"; sourceTree = "<group>"; };
+		28B2F81422A8B80200B05448 /* CollectionViewDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewDetailViewController.h; sourceTree = "<group>"; };
+		28B2F81522A8B80200B05448 /* CollectionViewDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewDetailViewController.m; sourceTree = "<group>"; };
 		28BB7E462282CDB500FD26E3 /* MenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		28BB7E472282CDB500FD26E3 /* MenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		28BB7E492282CDD300FD26E3 /* CenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
@@ -241,14 +254,12 @@
 		28BCF51E228BB941000EFB02 /* TimerDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerDemoViewController.m; sourceTree = "<group>"; };
 		28BCF520228BB959000EFB02 /* KVCandKVOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVCandKVOViewController.h; sourceTree = "<group>"; };
 		28BCF521228BB959000EFB02 /* KVCandKVOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVCandKVOViewController.m; sourceTree = "<group>"; };
-		28BCF523228BBAC0000EFB02 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
-		28BCF524228BBAC0000EFB02 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		28BCF526228BF136000EFB02 /* Target_KVCandKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_KVCandKVO.h; sourceTree = "<group>"; };
 		28BCF527228BF136000EFB02 /* Target_KVCandKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_KVCandKVO.m; sourceTree = "<group>"; };
 		28BCF529228BF19D000EFB02 /* WYEMediator+KVCandKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WYEMediator+KVCandKVO.h"; sourceTree = "<group>"; };
 		28BCF52A228BF19D000EFB02 /* WYEMediator+KVCandKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WYEMediator+KVCandKVO.m"; sourceTree = "<group>"; };
-		28D4D0A422769C5300F7A25D /* WYEBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYEBaseViewController.h; sourceTree = "<group>"; };
-		28D4D0A522769C5300F7A25D /* WYEBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYEBaseViewController.m; sourceTree = "<group>"; };
+		28D4D0A422769C5300F7A25D /* WYEBaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYEBaseTableViewController.h; sourceTree = "<group>"; };
+		28D4D0A522769C5300F7A25D /* WYEBaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYEBaseTableViewController.m; sourceTree = "<group>"; };
 		28F01165228A611300F0309F /* RunLoopDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoopDemoViewController.h; sourceTree = "<group>"; };
 		28F01166228A611300F0309F /* RunLoopDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopDemoViewController.m; sourceTree = "<group>"; };
 		28F01168228A616100F0309F /* WYEMediator+RunLoop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WYEMediator+RunLoop.h"; sourceTree = "<group>"; };
@@ -313,6 +324,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2800AE9922F022370032586D /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				2800AE9A22F022590032586D /* NSURLSessionDetailViewController.h */,
+				2800AE9B22F022590032586D /* NSURLSessionDetailViewController.m */,
+				2800AE9D22F0230E0032586D /* Target_NSURLSession.h */,
+				2800AE9E22F0230E0032586D /* Target_NSURLSession.m */,
+			);
+			path = NSURLSession;
+			sourceTree = "<group>";
+		};
 		282DBC882293D72A008F4671 /* CopyTarget */ = {
 			isa = PBXGroup;
 			children = (
@@ -414,6 +436,8 @@
 				28F01169228A616100F0309F /* WYEMediator+RunLoop.m */,
 				28BCF529228BF19D000EFB02 /* WYEMediator+KVCandKVO.h */,
 				28BCF52A228BF19D000EFB02 /* WYEMediator+KVCandKVO.m */,
+				2800AEA022F023A60032586D /* WYEMediator+NSURLSession.h */,
+				2800AEA122F023A70032586D /* WYEMediator+NSURLSession.m */,
 			);
 			path = "ModulesCategories(每个独立模块都应该独立建一个category)";
 			sourceTree = "<group>";
@@ -421,6 +445,8 @@
 		284D9D082275A5C6005152C1 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				2800AE9922F022370032586D /* NSURLSession */,
+				28B2F81322A8B7DB00B05448 /* CollectionView */,
 				28BCF51C228BB909000EFB02 /* KVCandKVO */,
 				28BCF51B228BB900000EFB02 /* NSTimer */,
 				28F01164228A60EF00F0309F /* runloop */,
@@ -541,6 +567,15 @@
 			path = fishhook;
 			sourceTree = "<group>";
 		};
+		28B2F81322A8B7DB00B05448 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				28B2F81422A8B80200B05448 /* CollectionViewDetailViewController.h */,
+				28B2F81522A8B80200B05448 /* CollectionViewDetailViewController.m */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
 		28BB7E452282CD9000FD26E3 /* 简单抽屉 */ = {
 			isa = PBXGroup;
 			children = (
@@ -572,8 +607,6 @@
 				28BCF521228BB959000EFB02 /* KVCandKVOViewController.m */,
 				28BCF526228BF136000EFB02 /* Target_KVCandKVO.h */,
 				28BCF527228BF136000EFB02 /* Target_KVCandKVO.m */,
-				28BCF523228BBAC0000EFB02 /* Test.h */,
-				28BCF524228BBAC0000EFB02 /* Test.m */,
 			);
 			path = KVCandKVO;
 			sourceTree = "<group>";
@@ -581,8 +614,10 @@
 		28D4D0A322769C3C00F7A25D /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				28D4D0A422769C5300F7A25D /* WYEBaseViewController.h */,
-				28D4D0A522769C5300F7A25D /* WYEBaseViewController.m */,
+				28D4D0A422769C5300F7A25D /* WYEBaseTableViewController.h */,
+				28D4D0A522769C5300F7A25D /* WYEBaseTableViewController.m */,
+				2800AEA322F0255C0032586D /* WYEBaseViewController.h */,
+				2800AEA422F0255C0032586D /* WYEBaseViewController.m */,
 				28F01181228A6A7700F0309F /* GlobaDefine.h */,
 			);
 			name = Base;
@@ -882,7 +917,7 @@
 				282DBC4E2293D1D1008F4671 /* RootViewController.m in Sources */,
 				282DBC4F2293D1D1008F4671 /* RunLoopDemoViewController.m in Sources */,
 				282DBC502293D1D1008F4671 /* Target_MultiTableView.m in Sources */,
-				282DBC512293D1D1008F4671 /* WYEBaseViewController.m in Sources */,
+				282DBC512293D1D1008F4671 /* WYEBaseTableViewController.m in Sources */,
 				282DBC522293D1D1008F4671 /* WYETools.m in Sources */,
 				282DBC532293D1D1008F4671 /* Person+Name.m in Sources */,
 				282DBC542293D1D1008F4671 /* main.m in Sources */,
@@ -909,7 +944,6 @@
 				282DBC692293D1D1008F4671 /* Target_RuntimeDemo.m in Sources */,
 				282DBC6A2293D1D1008F4671 /* UIViewController+Logger.m in Sources */,
 				282DBC6B2293D1D1008F4671 /* RightViewController.m in Sources */,
-				282DBC6C2293D1D1008F4671 /* Test.m in Sources */,
 				282DBC6D2293D1D1008F4671 /* WYEMediator+MutiThreadModuleActions.m in Sources */,
 				282DBC6E2293D1D1008F4671 /* SMCallStack.m in Sources */,
 				282DBC6F2293D1D1008F4671 /* MenuViewController.m in Sources */,
@@ -941,7 +975,9 @@
 				289C46492283BB5A004F5C1F /* RootViewController.m in Sources */,
 				28F01167228A611300F0309F /* RunLoopDemoViewController.m in Sources */,
 				289C46552283C75D004F5C1F /* Target_MultiTableView.m in Sources */,
-				28D4D0A622769C5300F7A25D /* WYEBaseViewController.m in Sources */,
+				2800AEA522F0255C0032586D /* WYEBaseViewController.m in Sources */,
+				28D4D0A622769C5300F7A25D /* WYEBaseTableViewController.m in Sources */,
+				2800AE9F22F0230E0032586D /* Target_NSURLSession.m in Sources */,
 				287C96A22289581200F2F1E1 /* WYETools.m in Sources */,
 				289474F722856CD10020A16A /* Person+Name.m in Sources */,
 				284D9CDB22754DE5005152C1 /* main.m in Sources */,
@@ -967,8 +1003,8 @@
 				289C466622841A71004F5C1F /* UIButton+Logger.m in Sources */,
 				289474EB228559CB0020A16A /* Target_RuntimeDemo.m in Sources */,
 				289C46632283D623004F5C1F /* UIViewController+Logger.m in Sources */,
+				2800AE9C22F022590032586D /* NSURLSessionDetailViewController.m in Sources */,
 				289C464F2283BBA9004F5C1F /* RightViewController.m in Sources */,
-				28BCF525228BBAC0000EFB02 /* Test.m in Sources */,
 				284D9D0722759C21005152C1 /* WYEMediator+MutiThreadModuleActions.m in Sources */,
 				28F0117E228A6A2600F0309F /* SMCallStack.m in Sources */,
 				28BB7E482282CDB500FD26E3 /* MenuViewController.m in Sources */,
@@ -978,11 +1014,13 @@
 				28B2558D2276D99C001932FA /* WYEOperation.m in Sources */,
 				28BCF51F228BB941000EFB02 /* TimerDemoViewController.m in Sources */,
 				289474F4228561A80020A16A /* RunTimePraticalViewController.m in Sources */,
+				2800AEA222F023A70032586D /* WYEMediator+NSURLSession.m in Sources */,
 				28F0117B228A6A2600F0309F /* SMCallTraceTimeCostModel.m in Sources */,
 				289474E8228527390020A16A /* Student.m in Sources */,
 				289C46522283BBC2004F5C1F /* LeftViewController.m in Sources */,
 				28BB7E4B2282CDD300FD26E3 /* CenterViewController.m in Sources */,
 				28BCF52B228BF19D000EFB02 /* WYEMediator+KVCandKVO.m in Sources */,
+				28B2F81622A8B80200B05448 /* CollectionViewDetailViewController.m in Sources */,
 				280FA8C72282D43A0081CDC9 /* Target_Drawer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

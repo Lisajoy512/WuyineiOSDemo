@@ -20,23 +20,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WuyineiOSDemo/Module/runloop/RunLoopDemoViewController.m"
-            timestampString = "580381848.792542"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
-            landmarkName = "-viewDidLoad"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WuyineiOSDemo/Module/runloop/RunLoopDemoViewController.m"
-            timestampString = "580381848.794984"
+            timestampString = "585322658.933037"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "84"
@@ -52,12 +36,12 @@
                   moduleName = "WuyineiOSDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/wuyine/Desktop/MyProject/WuyineiOSDemo/WuyineiOSDemo/Module/runloop/RunLoopDemoViewController.m"
-                  timestampString = "580610215.119839"
+                  timestampString = "586176234.202619"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "84"
                   endingLineNumber = "84"
-                  offsetFromSymbolStart = "64">
+                  offsetFromSymbolStart = "60">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -67,45 +51,14 @@
                   moduleName = "WuyineiOSDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/wuyine/Desktop/MyProject/WuyineiOSDemo/WuyineiOSDemo/Module/runloop/RunLoopDemoViewController.m"
-                  timestampString = "580610215.12278"
+                  timestampString = "586176234.203999"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "84"
                   endingLineNumber = "84"
-                  offsetFromSymbolStart = "16">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__destroy_helper_block_"
-                  moduleName = "WuyineiOSDemo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/wuyine/Desktop/MyProject/WuyineiOSDemo/WuyineiOSDemo/Module/runloop/RunLoopDemoViewController.m"
-                  timestampString = "580610215.125703"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "84"
-                  endingLineNumber = "84"
-                  offsetFromSymbolStart = "16">
+                  offsetFromSymbolStart = "12">
                </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WuyineiOSDemo/Module/runloop/RunLoopDemoViewController.m"
-            timestampString = "580381848.795415"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
-            landmarkName = "-viewDidLoad"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

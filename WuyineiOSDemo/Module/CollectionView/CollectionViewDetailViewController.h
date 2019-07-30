@@ -1,8 +1,8 @@
 //
-//  MenuViewController.h
+//  CollectionViewDetailViewController.h
 //  WuyineiOSDemo
 //
-//  Created by wuyine on 2019/5/8.
+//  Created by wuyine on 2019/6/6.
 //  Copyright © 2019年 wuyine. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MenuViewController : WYEBaseTableViewController
+@interface CollectionViewDetailViewController : WYEBaseTableViewController
 
 @end
 
