@@ -114,7 +114,7 @@
     
     //点击图片延迟展示button后，应该5s之后显示图片。但点击按钮之后，如果一直拖动页面上的scroolview，使得一直处于UITrackingRunLoopMode之下，此时图片也不会展示。
     //此处展示适用于滑动列表时，延迟列表里的图片展示，以免引起列表滑动卡顿
-    [self.delayImageView performSelector:@selector(setImage:) withObject:[UIImage imageNamed:@"1"] afterDelay:5 inModes:@[NSDefaultRunLoopMode]];
+    [self.delayImageView performSelector:@selector(setImage:) withObject:[UIImage imageNamed:@"runloop1"] afterDelay:5 inModes:@[NSDefaultRunLoopMode]];
     
     //NSObject 的 performSelecter:afterDelay: 后，实际上其内部会创建一个 Timer 并添加到当前线程的 RunLoop 中。所以如果当前线程没有 RunLoop，则这个方法会失效。
     //当调用 performSelector:onThread: 时，实际上其会创建一个 Timer 加到对应的线程去，同样的，如果对应线程没有 RunLoop 该方法也会失效。

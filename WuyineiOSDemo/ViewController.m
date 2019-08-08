@@ -15,6 +15,8 @@
 #import "WYEMediator+RunLoop.h"
 #import "WYEMediator+KVCandKVO.h"
 #import "WYEMediator+NSURLSession.h"
+
+#import "WuyineiOSDemo-Swift.h"
 @interface ViewController ()
 @end
 
@@ -34,7 +36,8 @@
                        @"8 NSTimer循环引用demo",
                        @"9 KVC and KVO demo",
                        @"10 block相关",
-                       @"11 NSURLSession相关"
+                       @"11 NSURLSession相关",
+                       @"12 动画测试"
                        ];
 }
 
@@ -113,6 +116,11 @@
                 [self.navigationController pushViewController:vc animated:YES];
             }
             break;
+            case 12: {
+                UIViewController *vc = [[WYEMediator shareInstance] WYEMediator_detailAnimationVC];
+                [self.navigationController pushViewController:vc animated:YES];
+            }
+                break;
         default:
             break;
     }

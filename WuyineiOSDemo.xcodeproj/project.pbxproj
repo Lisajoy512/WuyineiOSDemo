@@ -16,6 +16,8 @@
 		2800AEA522F0255C0032586D /* WYEBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2800AEA422F0255C0032586D /* WYEBaseViewController.m */; };
 		280FA8C72282D43A0081CDC9 /* Target_Drawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 280FA8C62282D43A0081CDC9 /* Target_Drawer.m */; };
 		280FA8CA2282D6050081CDC9 /* WYEMediator+DrawerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 280FA8C92282D6050081CDC9 /* WYEMediator+DrawerDemo.m */; };
+		2823729322FBC029005EAC63 /* Target_Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2823729222FBC029005EAC63 /* Target_Animation.swift */; };
+		2823729522FBC0DE005EAC63 /* WYEMediator+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2823729422FBC0DE005EAC63 /* WYEMediator+Animation.swift */; };
 		282DBC482293D1D1008F4671 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 289474F022855E760020A16A /* Teacher.m */; };
 		282DBC492293D1D1008F4671 /* RuntimeDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289474E1228525F30020A16A /* RuntimeDemoViewController.m */; };
 		282DBC4A2293D1D1008F4671 /* Target_KVCandKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BCF527228BF136000EFB02 /* Target_KVCandKVO.m */; };
@@ -104,6 +106,7 @@
 		289C465B2283D1B3004F5C1F /* WYEHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 289C465A2283D1B3004F5C1F /* WYEHook.m */; };
 		289C46632283D623004F5C1F /* UIViewController+Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 289C46622283D623004F5C1F /* UIViewController+Logger.m */; };
 		289C466622841A71004F5C1F /* UIButton+Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 289C466522841A71004F5C1F /* UIButton+Logger.m */; };
+		28B15DCF22FA774900EB8F85 /* WYEAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B15DCE22FA774900EB8F85 /* WYEAnimationVC.swift */; };
 		28B2558D2276D99C001932FA /* WYEOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B2558C2276D99C001932FA /* WYEOperation.m */; };
 		28B255922276E90D001932FA /* Target_Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B255912276E90D001932FA /* Target_Log.m */; };
 		28B255952276E956001932FA /* LogRedirectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B255942276E956001932FA /* LogRedirectVC.m */; };
@@ -163,6 +166,8 @@
 		280FA8C62282D43A0081CDC9 /* Target_Drawer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_Drawer.m; sourceTree = "<group>"; };
 		280FA8C82282D6050081CDC9 /* WYEMediator+DrawerDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WYEMediator+DrawerDemo.h"; sourceTree = "<group>"; };
 		280FA8C92282D6050081CDC9 /* WYEMediator+DrawerDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WYEMediator+DrawerDemo.m"; sourceTree = "<group>"; };
+		2823729222FBC029005EAC63 /* Target_Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_Animation.swift; sourceTree = "<group>"; };
+		2823729422FBC0DE005EAC63 /* WYEMediator+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WYEMediator+Animation.swift"; sourceTree = "<group>"; };
 		282DBC862293D1D1008F4671 /* iOSDemo copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOSDemo copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		282DBC872293D1D1008F4671 /* WuyineiOSDemo copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "WuyineiOSDemo copy-Info.plist"; path = "/Users/wuyine/Desktop/MyProject/WuyineiOSDemo/WuyineiOSDemo copy-Info.plist"; sourceTree = "<absolute>"; };
 		282DBC892293D758008F4671 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -232,6 +237,8 @@
 		289C46622283D623004F5C1F /* UIViewController+Logger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Logger.m"; sourceTree = "<group>"; };
 		289C466422841A71004F5C1F /* UIButton+Logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Logger.h"; sourceTree = "<group>"; };
 		289C466522841A71004F5C1F /* UIButton+Logger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Logger.m"; sourceTree = "<group>"; };
+		28B15DCB22FA75E200EB8F85 /* WuyineiOSDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WuyineiOSDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		28B15DCE22FA774900EB8F85 /* WYEAnimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYEAnimationVC.swift; sourceTree = "<group>"; };
 		28B2558B2276D99C001932FA /* WYEOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYEOperation.h; sourceTree = "<group>"; };
 		28B2558C2276D99C001932FA /* WYEOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYEOperation.m; sourceTree = "<group>"; };
 		28B255902276E90D001932FA /* Target_Log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_Log.h; sourceTree = "<group>"; };
@@ -384,6 +391,7 @@
 				284D9CCF22754DE3005152C1 /* ViewController.m */,
 				280FA8C42282D26E0081CDC9 /* PrefixHeader.pch */,
 				284D9CD122754DE3005152C1 /* Main.storyboard */,
+				28B15DCB22FA75E200EB8F85 /* WuyineiOSDemo-Bridging-Header.h */,
 				284D9CD422754DE5005152C1 /* Assets.xcassets */,
 				284D9CD622754DE5005152C1 /* LaunchScreen.storyboard */,
 				284D9CD922754DE5005152C1 /* Info.plist */,
@@ -438,6 +446,7 @@
 				28BCF52A228BF19D000EFB02 /* WYEMediator+KVCandKVO.m */,
 				2800AEA022F023A60032586D /* WYEMediator+NSURLSession.h */,
 				2800AEA122F023A70032586D /* WYEMediator+NSURLSession.m */,
+				2823729422FBC0DE005EAC63 /* WYEMediator+Animation.swift */,
 			);
 			path = "ModulesCategories(每个独立模块都应该独立建一个category)";
 			sourceTree = "<group>";
@@ -445,6 +454,7 @@
 		284D9D082275A5C6005152C1 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				28C9D60A22F924BC00A00E5F /* WYEAnimation */,
 				2800AE9922F022370032586D /* NSURLSession */,
 				28B2F81322A8B7DB00B05448 /* CollectionView */,
 				28BCF51C228BB909000EFB02 /* KVCandKVO */,
@@ -611,6 +621,15 @@
 			path = KVCandKVO;
 			sourceTree = "<group>";
 		};
+		28C9D60A22F924BC00A00E5F /* WYEAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				28B15DCE22FA774900EB8F85 /* WYEAnimationVC.swift */,
+				2823729222FBC029005EAC63 /* Target_Animation.swift */,
+			);
+			path = WYEAnimation;
+			sourceTree = "<group>";
+		};
 		28D4D0A322769C3C00F7A25D /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -763,6 +782,7 @@
 				TargetAttributes = {
 					284D9CC722754DE3005152C1 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1030;
 					};
 					284D9CDF22754DE5005152C1 = {
 						CreatedOnToolsVersion = 10.1;
@@ -977,8 +997,10 @@
 				289C46552283C75D004F5C1F /* Target_MultiTableView.m in Sources */,
 				2800AEA522F0255C0032586D /* WYEBaseViewController.m in Sources */,
 				28D4D0A622769C5300F7A25D /* WYEBaseTableViewController.m in Sources */,
+				2823729322FBC029005EAC63 /* Target_Animation.swift in Sources */,
 				2800AE9F22F0230E0032586D /* Target_NSURLSession.m in Sources */,
 				287C96A22289581200F2F1E1 /* WYETools.m in Sources */,
+				2823729522FBC0DE005EAC63 /* WYEMediator+Animation.swift in Sources */,
 				289474F722856CD10020A16A /* Person+Name.m in Sources */,
 				284D9CDB22754DE5005152C1 /* main.m in Sources */,
 				284D9D00227553D3005152C1 /* WYEMediator.m in Sources */,
@@ -1000,6 +1022,7 @@
 				28B255922276E90D001932FA /* Target_Log.m in Sources */,
 				28B255952276E956001932FA /* LogRedirectVC.m in Sources */,
 				289C46582283C7E1004F5C1F /* WYEMediator+MultiTableView.m in Sources */,
+				28B15DCF22FA774900EB8F85 /* WYEAnimationVC.swift in Sources */,
 				289C466622841A71004F5C1F /* UIButton+Logger.m in Sources */,
 				289474EB228559CB0020A16A /* Target_RuntimeDemo.m in Sources */,
 				289C46632283D623004F5C1F /* UIViewController+Logger.m in Sources */,
@@ -1255,7 +1278,9 @@
 			baseConfigurationReference = B82E5FDCEA137668DC86F95D /* Pods-WuyineiOSDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = MEX93CHJ2V;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = WuyineiOSDemo/PrefixHeader.pch;
@@ -1278,6 +1303,9 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fiberhome.test.WuyineiOSDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WuyineiOSDemo/WuyineiOSDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1287,7 +1315,9 @@
 			baseConfigurationReference = 6A23A4B5C4815EA2988EDF35 /* Pods-WuyineiOSDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = MEX93CHJ2V;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = WuyineiOSDemo/PrefixHeader.pch;
@@ -1310,6 +1340,8 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fiberhome.test.WuyineiOSDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WuyineiOSDemo/WuyineiOSDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1318,6 +1350,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1C03E786673B14A943DF06EC /* Pods-WuyineiOSDemoTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MEX93CHJ2V;
@@ -1338,6 +1371,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6A648CBEBC5D51C0F3D8893A /* Pods-WuyineiOSDemoTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MEX93CHJ2V;
@@ -1358,6 +1392,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5BF3AF7B4CD31118CAE82942 /* Pods-WuyineiOSDemoUITests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MEX93CHJ2V;
 				INFOPLIST_FILE = WuyineiOSDemoUITests/Info.plist;
@@ -1377,6 +1412,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 10F77173E4059B556BEA8DF2 /* Pods-WuyineiOSDemoUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MEX93CHJ2V;
 				INFOPLIST_FILE = WuyineiOSDemoUITests/Info.plist;

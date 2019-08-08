@@ -20,7 +20,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WuyineiOSDemo/Module/runloop/RunLoopDemoViewController.m"
-            timestampString = "585322658.933037"
+            timestampString = "586861194.988228"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "84"
@@ -36,7 +36,7 @@
                   moduleName = "WuyineiOSDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/wuyine/Desktop/MyProject/WuyineiOSDemo/WuyineiOSDemo/Module/runloop/RunLoopDemoViewController.m"
-                  timestampString = "586176234.202619"
+                  timestampString = "586944316.49182"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "84"
@@ -51,7 +51,7 @@
                   moduleName = "WuyineiOSDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/wuyine/Desktop/MyProject/WuyineiOSDemo/WuyineiOSDemo/Module/runloop/RunLoopDemoViewController.m"
-                  timestampString = "586176234.203999"
+                  timestampString = "586944316.494486"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "84"
@@ -59,6 +59,38 @@
                   offsetFromSymbolStart = "12">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WuyineiOSDemo/WYEMediator.m"
+            timestampString = "586944788.659794"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "-performTarget:action:params:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WuyineiOSDemo/Module/WYEAnimation/Target_Animation.swift"
+            timestampString = "586944788.659894"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "Action_nativeFetchWYEAnimationVC()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
