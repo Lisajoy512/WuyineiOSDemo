@@ -9,10 +9,10 @@
 extension WYEMediator {
    @objc func WYEMediator_detailAnimationVC() -> UIViewController {
         let vc = self.performTarget("Animation", action: "nativeFetchWYEAnimationVC", params: [:])
-        if vc == nil {
-            return UIViewController.init()
-        }else {
-            return vc as! UIViewController
+        if ((vc as? UIViewController) != nil) {
+                return vc as! UIViewController
+            }else {
+                return UIViewController.init()
+            }
         }
-    }
 }

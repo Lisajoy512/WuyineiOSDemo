@@ -24,7 +24,7 @@ static WYEMediator *mediator;
     NSString *targetClassNSString = [NSString stringWithFormat:@"Target_%@",targetName];
     NSString *actionString = [NSString stringWithFormat:@"Action_%@",actionName];
     
-    Class class = NSClassFromString(@"_TtC13WuyineiOSDemo16Target_Animation");
+    Class class = NSClassFromString(targetClassNSString);
     id target = [[class alloc] init];
     SEL action = NSSelectorFromString(actionString);
     
