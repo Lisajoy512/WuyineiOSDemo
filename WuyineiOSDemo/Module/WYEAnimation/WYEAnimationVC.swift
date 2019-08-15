@@ -8,6 +8,7 @@
 
 
 class WYEAnimationVC: WYEBaseViewController,CAAnimationDelegate {
+    //MARK:- 属性
     var currentIndex = 0;
     lazy var redLabel : UILabel = {
         var label = UILabel()
@@ -40,18 +41,23 @@ class WYEAnimationVC: WYEBaseViewController,CAAnimationDelegate {
     
     lazy var button : UIButton = {
         var button = UIButton(type: UIButton.ButtonType.custom)
-        button.frame = CGRect(x: 20, y: 520, width: 100, height: 50)
+        button.frame = CGRect(x: 20, y: 520, width: 200, height: 50)
         button.backgroundColor = UIColor.yellow
         button.setTitle("点击播放涟漪动画", for: UIControl.State.normal)
         button.setTitleColor(UIColor.black, for: UIControl.State.normal)
         button.addTarget(self, action: #selector(showRipple), for: UIControl.Event.touchUpInside)
         return button
     }()
+    
+    lazy var wyeView : WYECustomView = {
+        var view = WYECustomView(frame: CGRect(x: 20, y: 600, width: 100, height: 50))
+        return view
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //MARK: 基础动画+组合动画
+        //MARK:基础动画+组合动画
         self.view.addSubview(redLabel)
         let caBasic = CABasicAnimation(keyPath: "position")
         caBasic.duration = 2
@@ -109,9 +115,10 @@ class WYEAnimationVC: WYEBaseViewController,CAAnimationDelegate {
         imageView.addGestureRecognizer(right)
         
         self.view.addSubview(button)
+        self.view.addSubview(wyeView)
     }
     
-    //MARK: 手势相关方法
+    //MARK:- 手势相关方法
     //左滑
     @objc fileprivate func leftSwipe(gesture: UIGestureRecognizer) {
         print("左滑动")

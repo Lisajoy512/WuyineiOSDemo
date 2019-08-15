@@ -18,6 +18,7 @@
 		280FA8CA2282D6050081CDC9 /* WYEMediator+DrawerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 280FA8C92282D6050081CDC9 /* WYEMediator+DrawerDemo.m */; };
 		2823729322FBC029005EAC63 /* Target_Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2823729222FBC029005EAC63 /* Target_Animation.swift */; };
 		2823729522FBC0DE005EAC63 /* WYEMediator+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2823729422FBC0DE005EAC63 /* WYEMediator+Animation.swift */; };
+		282A57BA2303A23200EAADDE /* WYECustomLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282A57B92303A23200EAADDE /* WYECustomLayer.swift */; };
 		282DBC482293D1D1008F4671 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 289474F022855E760020A16A /* Teacher.m */; };
 		282DBC492293D1D1008F4671 /* RuntimeDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289474E1228525F30020A16A /* RuntimeDemoViewController.m */; };
 		282DBC4A2293D1D1008F4671 /* Target_KVCandKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BCF527228BF136000EFB02 /* Target_KVCandKVO.m */; };
@@ -121,6 +122,7 @@
 		28BCF528228BF136000EFB02 /* Target_KVCandKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BCF527228BF136000EFB02 /* Target_KVCandKVO.m */; };
 		28BCF52B228BF19D000EFB02 /* WYEMediator+KVCandKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BCF52A228BF19D000EFB02 /* WYEMediator+KVCandKVO.m */; };
 		28D4D0A622769C5300F7A25D /* WYEBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D4D0A522769C5300F7A25D /* WYEBaseTableViewController.m */; };
+		28E1226923039DA2005EE0BB /* WYECustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E1226823039DA2005EE0BB /* WYECustomView.swift */; };
 		28F01167228A611300F0309F /* RunLoopDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F01166228A611300F0309F /* RunLoopDemoViewController.m */; };
 		28F0116A228A616100F0309F /* WYEMediator+RunLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F01169228A616100F0309F /* WYEMediator+RunLoop.m */; };
 		28F0116D228A620200F0309F /* Target_RunLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F0116C228A620200F0309F /* Target_RunLoop.m */; };
@@ -168,6 +170,7 @@
 		280FA8C92282D6050081CDC9 /* WYEMediator+DrawerDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WYEMediator+DrawerDemo.m"; sourceTree = "<group>"; };
 		2823729222FBC029005EAC63 /* Target_Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_Animation.swift; sourceTree = "<group>"; };
 		2823729422FBC0DE005EAC63 /* WYEMediator+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WYEMediator+Animation.swift"; sourceTree = "<group>"; };
+		282A57B92303A23200EAADDE /* WYECustomLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYECustomLayer.swift; sourceTree = "<group>"; };
 		282DBC862293D1D1008F4671 /* iOSDemo copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOSDemo copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		282DBC872293D1D1008F4671 /* WuyineiOSDemo copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "WuyineiOSDemo copy-Info.plist"; path = "/Users/wuyine/Desktop/MyProject/WuyineiOSDemo/WuyineiOSDemo copy-Info.plist"; sourceTree = "<absolute>"; };
 		282DBC892293D758008F4671 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -267,6 +270,7 @@
 		28BCF52A228BF19D000EFB02 /* WYEMediator+KVCandKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WYEMediator+KVCandKVO.m"; sourceTree = "<group>"; };
 		28D4D0A422769C5300F7A25D /* WYEBaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYEBaseTableViewController.h; sourceTree = "<group>"; };
 		28D4D0A522769C5300F7A25D /* WYEBaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYEBaseTableViewController.m; sourceTree = "<group>"; };
+		28E1226823039DA2005EE0BB /* WYECustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYECustomView.swift; sourceTree = "<group>"; };
 		28F01165228A611300F0309F /* RunLoopDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoopDemoViewController.h; sourceTree = "<group>"; };
 		28F01166228A611300F0309F /* RunLoopDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopDemoViewController.m; sourceTree = "<group>"; };
 		28F01168228A616100F0309F /* WYEMediator+RunLoop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WYEMediator+RunLoop.h"; sourceTree = "<group>"; };
@@ -626,6 +630,8 @@
 			children = (
 				28B15DCE22FA774900EB8F85 /* WYEAnimationVC.swift */,
 				2823729222FBC029005EAC63 /* Target_Animation.swift */,
+				28E1226823039DA2005EE0BB /* WYECustomView.swift */,
+				282A57B92303A23200EAADDE /* WYECustomLayer.swift */,
 			);
 			path = WYEAnimation;
 			sourceTree = "<group>";
@@ -986,6 +992,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				282A57BA2303A23200EAADDE /* WYECustomLayer.swift in Sources */,
 				289474F122855E760020A16A /* Teacher.m in Sources */,
 				289474E2228525F30020A16A /* RuntimeDemoViewController.m in Sources */,
 				28BCF528228BF136000EFB02 /* Target_KVCandKVO.m in Sources */,
@@ -1003,6 +1010,7 @@
 				2823729522FBC0DE005EAC63 /* WYEMediator+Animation.swift in Sources */,
 				289474F722856CD10020A16A /* Person+Name.m in Sources */,
 				284D9CDB22754DE5005152C1 /* main.m in Sources */,
+				28E1226923039DA2005EE0BB /* WYECustomView.swift in Sources */,
 				284D9D00227553D3005152C1 /* WYEMediator.m in Sources */,
 				284D9D0E2275A81D005152C1 /* MutiThreadViewController.m in Sources */,
 				28F0117F228A6A2600F0309F /* SMCallTraceCore.c in Sources */,
